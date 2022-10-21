@@ -687,7 +687,7 @@ provider-name="primaeval">
 	</extension>
 </addon>
 
-<addon id="service.World.Build" name="[B][COLOR orange]World Build Service[/COLOR][/B]" version="19.0.9c" provider-name="TechNEWSology">
+<addon id="service.World.Build" name="[B][COLOR orange]World Build Service[/COLOR][/B]" version="19.0.10" provider-name="TechNEWSology">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="vfs.sftp" />
@@ -696,9 +696,6 @@ provider-name="primaeval">
     <import addon="inputstream.rtmp" />
     <import addon="inputstream.adaptive" />
     <import addon="inputstream.ffmpegdirect" />
-    <import addon="plugin.program.downloader19" version="19.0.40"/>
-    <import addon="plugin.program.autowidget" version="19.0.60"/>
-    <import addon="repository.Worldolympic" version="1.1.0"/>
   </requires>
   <extension point="xbmc.python.script" library="addon.py">
     <provides>executable</provides>
