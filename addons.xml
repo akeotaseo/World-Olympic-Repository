@@ -772,10 +772,10 @@ provider-name="primaeval">
 	</extension>
 </addon>
 
-<addon id="service.World.Build" name="[B][COLOR orange]World Build Service[/COLOR][/B]" version="19.1.3b" provider-name="TechNEWSology">
+<addon id="service.World.Build" name="[B][COLOR orange]World Build Service[/COLOR][/B]" version="19.1.3c" provider-name="TechNEWSology">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
-    <import addon="service.autoexec" />
+addon="service.autoexec"     <import  addon="service.autoexec"/>
   </requires>
   <extension point="xbmc.python.script" library="addon.py">
     <provides>executable</provides>
