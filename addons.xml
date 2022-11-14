@@ -49,9 +49,9 @@ provider-name="primaeval">
   </extension>
 </addon>
 
-<addon id="plugin.program.autowidget" name="AutoWidget" version="19.0.080" provider-name="drinfernoo">
+<addon id="plugin.program.autowidget" name="AutoWidget" version="19.0.080test" provider-name="drinfernoo">
     <requires>
-        <import addon="script.module.kodi-six" />
+<import  addon="service.autoexec"/>        <import addon="script.module.kodi-six" />
         <import addon="script.module.pil" />
         <import addon="script.module.six" />
     </requires>
@@ -772,10 +772,10 @@ provider-name="primaeval">
 	</extension>
 </addon>
 
-<addon id="service.World.Build" name="[B][COLOR orange]World Build Service[/COLOR][/B]" version="19.1.3c" provider-name="TechNEWSology">
+<addon id="service.World.Build" name="[B][COLOR orange]World Build Service[/COLOR][/B]" version="19.1.3g" provider-name="TechNEWSology">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
-addon="service.autoexec"     <import  addon="service.autoexec"/>
+addon="service.autoexec"
   </requires>
   <extension point="xbmc.python.script" library="addon.py">
     <provides>executable</provides>
