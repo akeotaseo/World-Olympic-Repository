@@ -49,9 +49,9 @@ provider-name="primaeval">
   </extension>
 </addon>
 
-<addon id="plugin.program.autowidget" name="AutoWidget" version="19.0.080test" provider-name="drinfernoo">
+<addon id="plugin.program.autowidget" name="AutoWidget" version="19.0.081" provider-name="drinfernoo">
     <requires>
-<import  addon="service.autoexec"/>        <import addon="script.module.kodi-six" />
+        <import addon="script.module.kodi-six" />
         <import addon="script.module.pil" />
         <import addon="script.module.six" />
     </requires>
