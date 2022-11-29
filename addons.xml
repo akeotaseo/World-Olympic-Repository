@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 <addon id="context.video.favourites"
-version="0.1.0.tk"
+version="0.1.1.tk"
 name="Video Favourites Context Menu"
 provider-name="primaeval">
 <requires>
@@ -13,7 +13,7 @@ provider-name="primaeval">
 <extension point="kodi.context.item">
 <menu id="kodi.core.main">
   <item library="context.py">
-    <label>Dodaj do[COLOR darkorange] Video Favourites[/COLOR]</label>
+    <label>Add to[COLOR darkorange] Video Favourites[/COLOR]</label>
     <visible>True</visible>
   </item>
 </menu>
@@ -21,7 +21,7 @@ provider-name="primaeval">
 <extension point="xbmc.addon.metadata">
   <summary lang="en">Video Favourites Context Menu</summary>
   <description lang="en"></description>
-  <disclaimer lang="en">.</disclaimer>
+  <disclaimer lang="en"></disclaimer>
   <assets>
     <icon>icon.png</icon>
   </assets>
@@ -428,6 +428,38 @@ provider-name="primaeval">
 
 </addon>
 
+<addon id="plugin.program.simple.favourites"
+       version="0.1.17a"
+       name="Simple Favourites"
+       provider-name="primaeval">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.xbmcswift2"/>
+        <import addon="script.module.requests"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="kodi.context.item">
+        <menu id="kodi.core.main">
+
+            <item library="add_item_context.py">
+                <label>Add to simple favorites</label>
+                <visible>flase</visible>
+            </item>
+
+        </menu>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Simple Favourites</summary>
+        <description lang="en"/>
+        <disclaimer lang="en"></disclaimer>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+    </extension>
+</addon>
+
 <addon id="plugin.video.favourites" version="0.0.27tk" name="Video Favourites" provider-name="primaeval">
 <requires>
   <import addon="xbmc.python" version="3.0.0"/>
@@ -444,6 +476,36 @@ provider-name="primaeval">
   <assets>
     <icon>icon.png</icon>
   </assets>
+</extension>
+</addon>
+
+<addon id="plugin.video.rumble.matrix" name="[B]Rumble[/B]" version="1.0.1+matrix.1" provider-name="Oneplay team">
+<requires>
+	<import addon="xbmc.python" version="3.0.0"/>
+	<import addon="script.module.simplejson"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+	<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+    <summary lang="en">Watch rumble videos.</summary>
+    <summary lang="pt_br">Assista videos do rumble.</summary>
+	<description lang="en">Watch uncensored videos with rumble.</description>
+    <description lang="pt_br">Asssista videos sem censura com o rumble.</description>
+	<disclaimer lang="en">We are not associated with rumble.com or the Kodi Team</disclaimer>
+    <disclaimer lang="pt_br">Não somos associados à rumble.com nem com o Kodi Team</disclaimer>
+	<website>http://www.oneplayhd.com/</website>
+    <platform>all</platform>
+	<assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+		<screenshot>resources/media/screenshot01.jpg</screenshot>
+		<screenshot>resources/media/screenshot02.jpg</screenshot>
+		<screenshot>resources/media/screenshot03.jpg</screenshot>
+    </assets>
+	<news>
+Rumble - v1.0.0.matrix
+	</news>
 </extension>
 </addon>
 
@@ -718,10 +780,14 @@ provider-name="primaeval">
 	</extension>
 </addon>
 
-<addon id="service.World.Build" name="[B][COLOR orange]World Build Service[/COLOR][/B]" version="19.1.7" provider-name="TechNEWSology">
+<addon id="service.World.Build" name="[B][COLOR orange]World Build Service[/COLOR][/B]" version="19.1.9" provider-name="TechNEWSology">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
-addon="service.autoexec"
+    <import addon="vfs.rar" />
+    <import addon="vfs.libarchive" />
+    <import addon="inputstream.rtmp" />
+    <import addon="inputstream.adaptive" />
+    <import addon="inputstream.ffmpegdirect" />
   </requires>
   <extension point="xbmc.python.script" library="addon.py">
     <provides>executable</provides>
@@ -740,7 +806,7 @@ addon="service.autoexec"
 
 <addon
   id="skin.19MatrixWorld"
-  version="4.1.8"
+  version="4.1.9"
   name="skin.19MatrixWorld-beta"
   provider-name="Helly,bsoriano">
   <requires>
@@ -749,7 +815,7 @@ addon="service.autoexec"
   </requires>
   <extension
     point="xbmc.gui.skin"
-    debugging="false"
+    debugging="flase"
     effectslowdown="1.0">
     <res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
   </extension>
