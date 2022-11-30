@@ -783,11 +783,6 @@ Rumble - v1.0.0.matrix
 <addon id="service.World.Build" name="[B][COLOR orange]World Build Service[/COLOR][/B]" version="19.1.9" provider-name="TechNEWSology">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
-    <import addon="vfs.rar" />
-    <import addon="vfs.libarchive" />
-    <import addon="inputstream.rtmp" />
-    <import addon="inputstream.adaptive" />
-    <import addon="inputstream.ffmpegdirect" />
   </requires>
   <extension point="xbmc.python.script" library="addon.py">
     <provides>executable</provides>
