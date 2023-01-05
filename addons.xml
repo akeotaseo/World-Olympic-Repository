@@ -838,9 +838,10 @@ Version 1.1.1
 	</extension>
 </addon>
 
-<addon id="service.World.Build" name="[B][COLOR orange]World Build Service[/COLOR][/B]" version="19.1.14" provider-name="TechNEWSology">
+<addon id="service.World.Build" name="[B][COLOR orange]World Build Service[/COLOR][/B]" version="19.1.16" provider-name="TechNEWSology">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.resolveurl.xxx" version="0.0.0"/>
   </requires>
   <extension point="xbmc.python.script" library="addon.py">
     <provides>executable</provides>
