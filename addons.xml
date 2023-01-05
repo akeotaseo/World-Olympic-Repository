@@ -838,15 +838,9 @@ Version 1.1.1
 	</extension>
 </addon>
 
-<addon id="service.World.Build" name="[B][COLOR orange]World Build Service[/COLOR][/B]" version="19.1.13" provider-name="TechNEWSology-World">
+<addon id="service.World.Build" name="[B][COLOR orange]World Build Service[/COLOR][/B]" version="19.1.14" provider-name="TechNEWSology">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
-    <import addon="vfs.sftp" />
-    <import addon="vfs.rar" />
-    <import addon="vfs.libarchive" />
-    <import addon="inputstream.rtmp" />
-    <import addon="inputstream.adaptive" />
-    <import addon="inputstream.ffmpegdirect" />
   </requires>
   <extension point="xbmc.python.script" library="addon.py">
     <provides>executable</provides>
