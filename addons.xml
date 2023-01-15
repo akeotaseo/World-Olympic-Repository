@@ -326,7 +326,7 @@ provider-name="primaeval">
     </extension>
 </addon>
 
-<addon id="plugin.program.downloader19" name="[B][COLOR orange]World Updater - Tools[/COLOR][/B]" version="19.0.63" provider-name="TechNEWSology">
+<addon id="plugin.program.downloader19" name="[B][COLOR orange]World Updater - Tools[/COLOR][/B]" version="20.0.0" provider-name="TechNEWSology">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 
@@ -345,6 +345,7 @@ plugin.video.favourites
 		<description lang="el_GR">[B][COLOR orange]-[/COLOR][/B] Αυτόματη ενημέρωση αρχείων και συντομεύσεων του Build
 [B][COLOR orange]-[/COLOR][/B] Αυτοματοποιημένη καταχώριση νέων κλειδιών YouTube Api
 [B][COLOR orange]-[/COLOR][/B] Επιλογή αυτοματοποιημένης καταχώρισης τιμών Advanced Settings
+[B][COLOR orange]-[/COLOR][/B] Καθαρή εγκατάσταση του Build με επιλογή διατήρησης στοιχείων στη νέα μετάβαση
 [B][COLOR orange]-[/COLOR][/B] Επιλογή αυτόματης ενημέρωσης  ή οχι του build (On-Off)
 [B][COLOR orange]-[/COLOR][/B] Επιλογή εγκατάστασης Binary Addons και Καθαρισμός (Packages-Thumbnails)
 [B][COLOR orange]-[/COLOR][/B] Δημιουργία αντιγράφου ασφαλείας αρχείου zip του Build
@@ -846,7 +847,7 @@ Version 1.1.1
 	</extension>
 </addon>
 
-<addon id="service.World.Build" name="[B][COLOR orange]World Build Service[/COLOR][/B]" version="19.1.24" provider-name="TechNEWSology">
+<addon id="service.World.Build" name="[B][COLOR orange]World Build Service[/COLOR][/B]" version="20.0.0" provider-name="TechNEWSology">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="vfs.sftp" />
