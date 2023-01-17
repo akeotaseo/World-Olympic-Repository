@@ -600,12 +600,6 @@ Rumble - v1.0.0.matrix
 				<datadir zip="true">https://raw.githubusercontent.com/akeotaseo//World-Nexus-Repository/main/</datadir>
 			</dir>
 			<dir>
-		    <info compressed="false">https://magnetic.website/__zips/addons.xml</info>
-            <checksum>https://magnetic.website/__zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://magnetic.website/__zips/</datadir>
-            <hashes>false</hashes>
-			</dir>
-			<dir>
 				<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
 				<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
 				<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
@@ -877,7 +871,7 @@ Version 1.1.1
 	</extension>
 </addon>
 
-<addon id="service.World.Build" name="[B][COLOR orange]World Build Service[/COLOR][/B]" version="20.0.1" provider-name="TechNEWSology">
+<addon id="service.World.Build" name="[B][COLOR orange]World Build Service[/COLOR][/B]" version="20.0.1a" provider-name="TechNEWSology">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="vfs.sftp" />
