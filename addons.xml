@@ -576,6 +576,46 @@ Random updates by lolage.
 	</extension>
 </addon>
 
+<addon id="repository.plexkodiconnect" name="PlexKodiConnect Addons for Kodi 20 Nexus" version="3.0.0" provider-name="Croneter">
+	<requires>
+		<import addon="xbmc.addon" version="12.0.0"/>
+        <import addon="xbmc.python" version="3.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.repository" name="PlexKodiConnect Repository Kodi 20 Nexus">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/croneter/binary_repo/master/stable_py3/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/croneter/binary_repo/master/stable_py3/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/croneter/binary_repo/master/stable_py3/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>PlexKodiConnect add-on repository for Kodi 20 and later only.</summary>
+		<description>Repository for stable PlexKodiConnect versions.</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.plexkodiconnectbeta" name="PlexKodiConnect Beta Addons for Kodi 20 Nexus" version="3.0.0" provider-name="Croneter">
+	<requires>
+		<import addon="xbmc.addon" version="12.0.0"/>
+        <import addon="xbmc.python" version="3.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.repository" name="PlexKodiConnect Repository BETA Kodi 20 Nexus">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/croneter/binary_repo/master/beta_py3/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/croneter/binary_repo/master/beta_py3/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/croneter/binary_repo/master/beta_py3/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>PlexKodiConnect add-on repository for potentially unstable beta versions. Kodi 20 and later only.</summary>
+		<description>Please use the stable PlexKodiConnect repository for a more stable experience with Plex on Kodi.</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.twilight0" name="Twilight0 Addon Repository" version="1.5" provider-name="Twilight0">
     <extension point="xbmc.addon.repository" name="Twilight0 Addon Repository">
         <dir>
@@ -693,8 +733,8 @@ Random updates by lolage.
 	</extension>
 </addon>
 
-<addon id="script.extendedinfo" name="  [B][COLOR white]Extended Info-Diamond_MOD[/COLOR][/B]" version="7.23aa" provider-name="fryhenryj">
-"""""""""""""	<requires>
+<addon id="script.extendedinfo" name="  [B][COLOR white]Extended Info-Diamond_MOD[/COLOR][/B]" version="3.67tw" provider-name="fryhenryj">
+	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="repository.jurialmunkey" version="2.2" optional="true" />
 		<import addon="plugin.video.youtube" version="6.8.11+matrix.1"/>
@@ -711,7 +751,7 @@ Random updates by lolage.
 		<import addon="plugin.program.autocompletion" version="2.0.2" optional="true" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="plugin.py">
-		<provides>video</provides>
+		<provides>video executable</provides>
 	</extension>
 	<extension point="xbmc.python.script" library="script.py"/>
 	<extension point="kodi.context.item">
