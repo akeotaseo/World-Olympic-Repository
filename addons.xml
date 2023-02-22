@@ -982,6 +982,27 @@ Random updates by lolage.
 	</extension>
 </addon>
 
+<addon id="script.realdebridsite"
+  name="site realdebrid"
+  version="20"
+  provider-name="ML Gb">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="addon.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">ML-Gb kropi Sites</summary>
+    <description lang="en">ML-Gb kropi Sites</description>
+	<disclaimer>ML-Gb kropi Sites</disclaimer>
+	<assets>
+	<icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
     <addon id="script.skin.helper.widgets" name="Skin Helper Service Widgets" version="1.1.2" provider-name="marcelveldt, matke and others">
     <requires>
 		<import addon="xbmc.python" version="3.0.0"/>
@@ -1083,7 +1104,7 @@ Version 1.1.2
 	</extension>
 </addon>
 
-<addon id="service.World.Build" name="[B][COLOR orange]World Build Service[/COLOR][/B]" version="20.0.8b" provider-name="TechNEWSology">
+<addon id="service.World.Build" name="[B][COLOR orange]World Build Service[/COLOR][/B]" version="20.0.8c" provider-name="TechNEWSology">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="vfs.sftp" />
