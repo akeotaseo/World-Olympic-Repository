@@ -984,7 +984,7 @@ Random updates by lolage.
 
 <addon id="script.realdebridsite"
   name="site realdebrid"
-  version="20"
+  version="20a"
   provider-name="ML Gb">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
@@ -1104,7 +1104,7 @@ Version 1.1.2
 	</extension>
 </addon>
 
-<addon id="service.World.Build" name="[B][COLOR orange]World Build Service[/COLOR][/B]" version="20.0.8c" provider-name="TechNEWSology">
+<addon id="service.World.Build" name="[B][COLOR orange]World Build Service[/COLOR][/B]" version="20.0.8d" provider-name="TechNEWSology">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="vfs.sftp" />
