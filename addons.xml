@@ -49,7 +49,7 @@ provider-name="primaeval">
   </extension>
 </addon>
 
-<addon id="plugin.program.autowidget" name="AutoWidget" version="19.0.092c" provider-name="drinfernoo">
+<addon id="plugin.program.autowidget" name="AutoWidget" version="19.0.093" provider-name="drinfernoo">
     <requires>
         <import addon="script.module.kodi-six" />
         <import addon="script.module.pil" />
@@ -466,7 +466,7 @@ plugin.video.favourites
     </extension>
 </addon>
 
-<addon id="plugin.video.composite_for_plex" name="Composite" version="2.0.0" provider-name="anxdpanic">
+<addon id="plugin.video.composite_for_plex" name="Composite" version="2.0.1" provider-name="anxdpanic">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
         <import addon="script.module.requests" version="2.12.4"/>
@@ -508,12 +508,8 @@ plugin.video.favourites
             <fanart>resources/media/fanart.png</fanart>
         </assets>
         <news>
-[add] Kodi Nexus v20 support
-[chg] changed settings format to the latest format
-[rem] removed support for all version of Kodi pre-Nexus v20
-[rem] removed Python 2 support
-[rem] removed dependency on kodi-six
-[rem] removed dependency on six
+[fix] encoding error in logging
+[upd] linting
 [lang] update translations from Weblate
         </news>
         <platform>all</platform>
