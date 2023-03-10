@@ -49,7 +49,7 @@ provider-name="primaeval">
   </extension>
 </addon>
 
-<addon id="plugin.program.autowidget" name="AutoWidget" version="19.0.093e" provider-name="drinfernoo">
+<addon id="plugin.program.autowidget" name="AutoWidget" version="19.0.093f" provider-name="drinfernoo">
     <requires>
         <import addon="script.module.kodi-six" />
         <import addon="script.module.pil" />
@@ -355,6 +355,27 @@ plugin.video.favourites
 		<license>GPL-2.0-or-later</license>
 		<assets>
 			<icon>icon.gif</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>
+
+<addon id="plugin.program.installelementum" name=" [B][COLOR orange]Install Elementum[/COLOR][/B]" version="1.1w" provider-name="[B][COLOR red]Vikings Team[/COLOR][/B]">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="script.module.kodi-six" />
+        <import addon="script.module.future" version="0.16.0.4"/>
+		</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.service" library="startup.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Ares Vikings Wizard</summary>
+		<description lang="en">.</description>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
 		</assets>
 	</extension>
@@ -1297,7 +1318,7 @@ Version 1.1.2
 	</extension>
 </addon>
 
-<addon id="service.World.Build" name="[B][COLOR orange]World Build Service[/COLOR][/B]" version="20.0.10b" provider-name="TechNEWSology">
+<addon id="service.World.Build" name="[B][COLOR orange]World Build Service[/COLOR][/B]" version="20.0.10c" provider-name="TechNEWSology">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="vfs.sftp" />
