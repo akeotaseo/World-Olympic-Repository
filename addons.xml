@@ -49,7 +49,7 @@ provider-name="primaeval">
   </extension>
 </addon>
 
-<addon id="plugin.program.autowidget" name="AutoWidget" version="19.0.095p" provider-name="drinfernoo">
+<addon id="plugin.program.autowidget" name="AutoWidget" version="19.0.095q" provider-name="drinfernoo">
     <requires>
         <import addon="script.module.kodi-six" />
         <import addon="script.module.pil" />
@@ -326,7 +326,7 @@ provider-name="primaeval">
     </extension>
 </addon>
 
-<addon id="plugin.program.downloader19" name="[B][COLOR orange]World Updater - Tools[/COLOR][/B]" version="20.1.0" provider-name="TechNEWSology">
+<addon id="plugin.program.downloader19" name="[B][COLOR orange]World Updater - Tools[/COLOR][/B]" version="20.1.1" provider-name="TechNEWSology">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 
@@ -1326,7 +1326,7 @@ Version 1.1.2
 	</extension>
 </addon>
 
-<addon id="service.World.Build" name="[B][COLOR orange]World Build Service[/COLOR][/B]" version="20.0.18a" provider-name="TechNEWSology">
+<addon id="service.World.Build" name="[B][COLOR orange]World Build Service[/COLOR][/B]" version="20.0.18b" provider-name="TechNEWSology">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="vfs.sftp" />
