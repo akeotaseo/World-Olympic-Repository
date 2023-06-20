@@ -1295,7 +1295,7 @@ Version 1.1.2
 	</extension>
 </addon>
 
-<addon id="service.World.Build" name="[B][COLOR orange]World Build Service[/COLOR][/B]" version="20.0.19" provider-name="TechNEWSology">
+<addon id="service.World.Build" name="[B][COLOR orange]World Build Service[/COLOR][/B]" version="20.0.19a" provider-name="TechNEWSology">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="vfs.sftp" />
@@ -1334,6 +1334,7 @@ Version 1.1.2
     <import addon="plugin.program.simple.favourites" version="0.1.19"/>
     <import addon="plugin.video.favourites" version="0.0.31"/>
     <import addon="service.World.Build" version="20.0.19"/>
+    <import addon="plugin.program.downloader19" version="20.1.1"/>
   </requires>
   <extension
     point="xbmc.gui.skin"
