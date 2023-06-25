@@ -605,7 +605,7 @@ In addition to what livestreams allowed you to do, you can now,
 
 </addon>
 
-<addon id="plugin.video.rumble" name="Rumble" version="1.4.0" provider-name="azzy9">
+<addon id="plugin.video.rumble" name="Rumble" version="1.4.1" provider-name="azzy9">
 	<requires>
 		<import addon="script.module.simplejson"/>
 		<import addon="script.module.requests"/>
@@ -627,13 +627,8 @@ In addition to what livestreams allowed you to do, you can now,
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
 		</assets>
-		<news>- v1.4.0 - Add functionality to see comments if logged in
-- v1.3.4 - Clean videos title text
-- v1.3.3 - validate return data for subscribe method
-  - Move strings to language files
-  - Add en_US language
-  - Correct en_GB spellings
-  - </news>
+		<news>- v1.4.1 - Fix category videos
+- v1.4.0 - Add functionality to see comments if logged in</news>
 	</extension>
 </addon>
 
