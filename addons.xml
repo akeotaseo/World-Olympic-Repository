@@ -1028,7 +1028,7 @@ Random updates by lolage.
 	</extension>
 </addon>
 
-<addon id="script.module.jetextractors" name="JetExtractors" version="2.0.77d-TL" provider-name="THE TEAM">
+<addon id="script.module.jetextractors" name="JetExtractors" version="2.0.77dtl" provider-name="THE TEAM">
 	<requires>
 		<import addon="script.module.requests" />
 		<import addon="script.module.beautifulsoup4" />
