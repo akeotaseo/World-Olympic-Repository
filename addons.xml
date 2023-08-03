@@ -456,7 +456,7 @@ plugin.video.favourites
 </addon>
 
 <addon id="plugin.program.simple.favourites"
-       version="0.1.19c"
+       version="0.1.20"
        name="Simple Favourites"
        provider-name="primaeval">
     <requires>
