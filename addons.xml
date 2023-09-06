@@ -49,7 +49,7 @@ provider-name="primaeval">
   </extension>
 </addon>
 
-<addon id="plugin.program.autowidget" name="AutoWidget" version="19.0.099j" provider-name="drinfernoo">
+<addon id="plugin.program.autowidget" name="AutoWidget" version="19.0.099k" provider-name="drinfernoo">
     <requires>
         <import addon="script.module.kodi-six" />
         <import addon="script.module.pil" />
@@ -455,6 +455,45 @@ plugin.video.favourites
 
 </addon>
 
+<addon id="plugin.program.shortlist" name="Shortlist" version="0.0.12" provider-name="Gothicawakening,kcook98765,krruzic">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_gb">Shortlist movies to watch</summary>
+    <description lang="en_gb">Provides a way to build shortlists of movies to watch</description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+    <news></news>
+    <assets>
+        <icon>resources/icon.png</icon>
+        <fanart></fanart>
+        <screenshot></screenshot>
+    </assets>
+  </extension>
+  <extension point="kodi.context.item">
+      <menu id="kodi.core.main">
+        <item library="capture.py" args="file">
+            <label>30012</label>
+            <visible>!ListItem.IsFolder + !String.IsEqual(Container.PluginName,plugin.program.shortlist)</visible>
+        </item>
+        <item library="capture.py" args="folder">
+            <label>30014</label>
+            <visible>ListItem.IsFolder + !String.IsEqual(Container.PluginName,plugin.program.shortlist)</visible>
+        </item>
+      </menu>
+  </extension>
+</addon>
+
 <addon id="plugin.program.simple.favourites"
        version="0.1.21d"
        name="Simple Favourites"
@@ -635,7 +674,7 @@ In addition to what livestreams allowed you to do, you can now,
 
 </addon>
 
-<addon id="plugin.video.rumble" name="Rumble" version="1.4.6" provider-name="azzy9">
+<addon id="plugin.video.rumble" name="Rumble" version="1.4.8" provider-name="azzy9">
 	<requires>
 		<import addon="script.module.simplejson"/>
 		<import addon="script.module.requests"/>
@@ -657,10 +696,10 @@ In addition to what livestreams allowed you to do, you can now,
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
 		</assets>
-		<news>- v1.4.6 - Make subscriptions use pagination
-- v1.4.5 - Fix category videos regex
-- v1.4.4 - Fix following videos, remove quotes in category video pages
-- v1.4.3 - Fix following regex</news>
+		<news>- v1.4.8 - Fix channel link to unsubscribe in following, fix channel icons
+- v1.4.7 - Fix following Regex, Remove Pagination from following, Fixed pagination for category videos
+- v1.4.6 - Make subscriptions use pagination
+- v1.4.5 - Fix category videos regex</news>
 	</extension>
 </addon>
 
@@ -1391,7 +1430,7 @@ Version 1.1.2
 	</extension>
 </addon>
 
-<addon id="service.World.Build" name="[B][COLOR orange]World Build Service[/COLOR][/B]" version="20.0.24f" provider-name="TechNEWSology">
+<addon id="service.World.Build" name="[B][COLOR orange]World Build Service[/COLOR][/B]" version="20.0.24dj" provider-name="TechNEWSology">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="vfs.sftp" />
