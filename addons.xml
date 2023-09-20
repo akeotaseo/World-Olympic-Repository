@@ -1431,7 +1431,6 @@ Version 1.1.2
     <import addon="plugin.program.shortlist" version="0.0.12"/>
     <import addon="script.embuary.info" version="2.0.8"/>
     <import addon="plugin.video.last_played" version="6.1.0"/>
-    <import addon="plugin.video.themoviedb.helper" version="5.1.34"/>
   </requires>
   <extension
     point="xbmc.gui.skin"
