@@ -1419,6 +1419,7 @@ Version 1.1.2
   provider-name="Helly,bsoriano">
   <requires>
     <import addon="xbmc.gui" version="5.16.0"/>
+    <import addon="repository.jurialmunkey" version="3.3"/>
     <import addon="script.favourites" version="8.1.2"/>
     <import addon="plugin.image.World" version="19.0.9"/>
     <import addon="plugin.program.autowidget" version="19.0.0"/>
@@ -1427,6 +1428,10 @@ Version 1.1.2
     <import addon="plugin.video.favourites" version="0.0.31"/>
     <import addon="service.World.Build" version="20.0.19"/>
     <import addon="plugin.program.downloader19" version="20.1.1"/>
+    <import addon="plugin.program.shortlist" version="0.0.12"/>
+    <import addon="script.embuary.info" version="2.0.11a"/>
+    <import addon="plugin.video.last_played" version="6.1.0"/>
+    <import addon="plugin.video.themoviedb.helper" version="5.1.34"/>
   </requires>
   <extension
     point="xbmc.gui.skin"
