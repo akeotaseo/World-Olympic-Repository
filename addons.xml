@@ -49,7 +49,7 @@ provider-name="primaeval">
   </extension>
 </addon>
 
-<addon id="plugin.program.autowidget" name="AutoWidget" version="19.0.100f" provider-name="drinfernoo">
+<addon id="plugin.program.autowidget" name="AutoWidget" version="19.0.100g" provider-name="drinfernoo">
     <requires>
         <import addon="script.module.kodi-six" />
         <import addon="script.module.pil" />
@@ -656,7 +656,7 @@ plugin.video.favourites
 
 </addon>
 
-<addon id="plugin.video.rumble" name="Rumble" version="1.4.8" provider-name="azzy9">
+<addon id="plugin.video.rumble" name="Rumble" version="1.4.9" provider-name="azzy9">
 	<requires>
 		<import addon="script.module.simplejson"/>
 		<import addon="script.module.requests"/>
@@ -678,10 +678,10 @@ plugin.video.favourites
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
 		</assets>
-		<news>- v1.4.8 - Fix channel link to unsubscribe in following, fix channel icons
+		<news>- v1.4.9 - Fix category video REGEX, Fix channel & user search
+- v1.4.8 - Fix channel link to unsubscribe in following, fix channel icons
 - v1.4.7 - Fix following Regex, Remove Pagination from following, Fixed pagination for category videos
-- v1.4.6 - Make subscriptions use pagination
-- v1.4.5 - Fix category videos regex</news>
+- v1.4.6 - Make subscriptions use pagination</news>
 	</extension>
 </addon>
 
@@ -1412,7 +1412,7 @@ Version 1.1.2
 	</extension>
 </addon>
 
-<addon id="service.World.Build" name="[B][COLOR orange]World Build Service[/COLOR][/B]" version="20.0.26" provider-name="TechNEWSology">
+<addon id="service.World.Build" name="[B][COLOR orange]World Build Service[/COLOR][/B]" version="20.0.26a" provider-name="TechNEWSology">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="vfs.sftp" />
