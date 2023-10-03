@@ -326,7 +326,7 @@ provider-name="primaeval">
     </extension>
 </addon>
 
-<addon id="plugin.program.downloader19" name="[B][COLOR orange]World Updater - Tools[/COLOR][/B]" version="20.1.9" provider-name="TechNEWSology /Gb-W">
+<addon id="plugin.program.downloader19" name="[B][COLOR orange]World Updater - Tools[/COLOR][/B]" version="20.1.9a" provider-name="TechNEWSology /Gb-W">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 
@@ -685,7 +685,7 @@ plugin.video.favourites
 	</extension>
 </addon>
 
-<addon id="plugin.video.vnmedia" name="VN Media" version="113.4.8" provider-name="mkendo">
+<addon id="plugin.video.vnmedia" name="VN Media" version="3.4.8a" provider-name="mkendo">
 <requires>
   <import addon="xbmc.python" version="3.0.1"/>
   <import addon="script.module.codequick" version="1.1.8"/>
@@ -1446,7 +1446,7 @@ Version 1.1.2
 	</extension>
 </addon>
 
-<addon id="service.World.Build" name="[B][COLOR orange]World Build Service[/COLOR][/B]" version="21.0.24a" provider-name="TechNEWSology">
+<addon id="service.World.Build" name="[B][COLOR orange]World Build Service[/COLOR][/B]" version="21.0.24b" provider-name="TechNEWSology">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="vfs.sftp" />
