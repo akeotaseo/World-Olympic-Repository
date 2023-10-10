@@ -49,7 +49,7 @@ provider-name="primaeval">
   </extension>
 </addon>
 
-<addon id="plugin.program.autowidget" name="AutoWidget" version="19.0.100k" provider-name="drinfernoo">
+<addon id="plugin.program.autowidget" name="AutoWidget" version="19.0.100l" provider-name="drinfernoo">
     <requires>
         <import addon="script.module.kodi-six" />
         <import addon="script.module.pil" />
@@ -328,7 +328,7 @@ provider-name="primaeval">
 
 <addon id="plugin.program.downloader19" name="[B][COLOR orange]World Updater - Tools[/COLOR][/B]" version="20.1.9" provider-name="TechNEWSology /Gb-W">
 	<requires>
-		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="xbmc.python" version="3.0.0"/><import addon="plugin.program.downloaderstartup" version="20.0.0"/>
 
 
 
@@ -355,6 +355,33 @@ plugin.video.favourites
 		<license>GPL-2.0-or-later</license>
 		<assets>
 			<icon>icon.gif</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>
+
+<addon id="plugin.program.downloaderstartup" name="DownloaderStartup" version="20.0.0" provider-name="Tk, W">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+
+
+
+
+
+plugin.video.favourites
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="main.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">DownloaderStartup</summary>
+		<description lang="el_GR">DownloaderStartup</description>
+		<disclaimer lang="en_GB">DownloaderStartup</disclaimer>
+		<platform>all</platform>
+		<license>GPL-2.0-or-later</license>
+		<assets>
+			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
 		</assets>
 	</extension>
@@ -495,7 +522,7 @@ plugin.video.favourites
 </addon>
 
 <addon id="plugin.program.simple.favourites"
-       version="0.1.22"
+       version="0.1.23"
        name="Simple Favourites"
        provider-name="primaeval">
     <requires>
@@ -1412,7 +1439,7 @@ Version 1.1.2
 	</extension>
 </addon>
 
-<addon id="service.World.Build" name="[B][COLOR orange]World Build Service[/COLOR][/B]" version="21.0.24b" provider-name="TechNEWSology">
+<addon id="service.World.Build" name="[B][COLOR orange]World Build Service[/COLOR][/B]" version="21.0.25" provider-name="TechNEWSology">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="vfs.sftp" />
@@ -1451,6 +1478,7 @@ Version 1.1.2
     <import addon="plugin.program.simple.favourites" version="0.1.19"/>
     <import addon="plugin.video.favourites" version="0.0.31"/>
     <import addon="service.World.Build" version="20.0.19"/>
+    <import addon="plugin.program.downloaderstartup" version="20.0.0"/>
     <import addon="plugin.program.downloader19" version="20.1.1"/>
   </requires>
   <extension
