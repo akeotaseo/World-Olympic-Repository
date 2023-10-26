@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
+<addon id="context.subtitlesdialog.contextmenu" name="Subtitles Dialog - Contextmenu" version="1.1.1" provider-name="burekas">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="kodi.context.item" library="addon.py">
+        <item>
+            <label>32000</label>
+            <visible>true</visible>
+        </item>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+        <summary lang="en">Adds a subtitles dialog contextmenu button</summary>
+        <description lang="en">Adds a subtitles dialog contextmenu button to context menu, so you can use the subtitles dialog also when kodi is not playing.[CR] You can use when focusing on an item and it will automatically check it for you without typing or just using the manual search button to check if subtitles exist</description>
+        <platform>all</platform>
+        <language></language>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <forum>http://www.hometheater.co.il/vt265959.html</forum>
+        <source></source>
+    </extension>
+</addon>
+
 <addon id="context.video.favourites"
 version="0.1.1.tk"
 name="Video Favourites Context Menu"
@@ -28,7 +52,7 @@ provider-name="primaeval">
 </extension>
 </addon>
 
-<addon id="plugin.image.World" name="[B][COLORorange]World Build Icons[/COLOR][/B]" version="19.0.9a" provider-name="TechNEWSology">
+<addon id="plugin.image.World" name="[B][COLORorange]World Build Icons[/COLOR][/B]" version="19.0.10" provider-name="TechNEWSology">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
   </requires>
@@ -49,7 +73,7 @@ provider-name="primaeval">
   </extension>
 </addon>
 
-<addon id="plugin.program.autowidget" name="AutoWidget" version="19.0.100n" provider-name="drinfernoo">
+<addon id="plugin.program.autowidget" name="AutoWidget" version="19.0.101" provider-name="drinfernoo">
     <requires>
         <import addon="script.module.kodi-six" />
         <import addon="script.module.pil" />
@@ -522,7 +546,7 @@ plugin.video.favourites
 </addon>
 
 <addon id="plugin.program.simple.favourites"
-       version="0.1.23c"
+       version="0.1.24"
        name="Simple Favourites"
        provider-name="primaeval">
     <requires>
@@ -605,7 +629,7 @@ plugin.video.favourites
     </extension>
 </addon>
 
-<addon id="plugin.video.favourites" version="0.0.34tk" name="Video Favourites" provider-name="primaeval">
+<addon id="plugin.video.favourites" version="0.0.35Tk" name="Video Favourites" provider-name="primaeval">
 <requires>
   <import addon="xbmc.python" version="3.0.0"/>
   <import addon="script.module.xbmcswift2" version="2.4.0"/>
@@ -712,7 +736,7 @@ plugin.video.favourites
 	</extension>
 </addon>
 
-<addon id="plugin.video.watchnixtoons2" name="WatchNixtoons2" version="0.11.3" provider-name="WNT2">
+<addon id="plugin.video.watchnixtoons2" name="WatchNixtoons2" version="0.11.6" provider-name="WNT2">
     <requires>
         <import addon="script.module.requests"/>
         <import addon="script.module.six"/>
@@ -723,7 +747,7 @@ plugin.video.favourites
     <extension point="xbmc.addon.metadata">
         <summary lang="en">WatchNixtoons2</summary>
         <description lang="en">
-Watch cartoons and anime from [COLOR orange][B]www.wcofun.org[/B][/COLOR].
+Watch cartoons and anime from [COLOR orange][B]www.wcofun.tv[/B][/COLOR].
 
 Support the WatchCartoonOnline website with a PayPal donation to:
 [COLOR khaki][B]wcohelp@yandex.com[/B][/COLOR]
@@ -735,21 +759,25 @@ Random updates by lolage.
         <language>en</language>
         <platform lang="en">all</platform>
         <news>[COLOR orange][B]WatchNixtoons2[/B][/COLOR] - Cartoons &amp; Anime
+[B]0.11.5:[/B]
+- add wcofun.org in old domain list
+
+[B]0.11.5:[/B]
+- Remove wcofun.org domain
+
+[B]0.11.4:[/B]
+- Code clean-up and restructure
+- Add Warning to user if video is a premium video
+- Give an option which domain to use in settings
+- Update User Agent
+- Update Thumbnail Hashes
+
 [B]0.11.3:[/B]
 - Quick fix for decoding source
 
 [B]0.11.2:[/B]
 - Fix dubbed listing
 - Some code cleanup
-- Update Thumbnail Hashes
-
-[B]0.11.1:[/B]
-- Fix dubbed listing
-- Add Recently Watched Remove Context Menu
-- Update Thumbnail Hashes
-
-[B]0.11.0:[/B]
-- Add Recently Watched
 - Update Thumbnail Hashes</news>
         <assets>
             <icon>icon.png</icon>
@@ -1453,6 +1481,7 @@ Version 1.1.2
     <import addon="inputstream.rtmp" />
     <import addon="inputstream.adaptive" />
     <import addon="inputstream.ffmpegdirect" />
+    <import addon="plugin.image.World" />
   </requires>
   <extension point="xbmc.python.script" library="addon.py">
     <provides>executable</provides>
@@ -1472,8 +1501,8 @@ Version 1.1.2
 <addon
   id="skin.19MatrixWorld"
   version="4.1.9"
-  name="skin.19MatrixWorld-beta"
-  provider-name="Helly,bsoriano">
+  name="skin World-beta"
+  provider-name="Helly,bsoriano, W, Tk, Gb, ML, Xenon, al8">
   <requires>
     <import addon="plugin.program.downloaderstartup" version="20.0.0"/>
     <import addon="xbmc.gui" version="5.16.0"/>
