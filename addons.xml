@@ -73,7 +73,7 @@ provider-name="primaeval">
   </extension>
 </addon>
 
-<addon id="plugin.program.autowidget" name="AutoWidget" version="19.0.103" provider-name="drinfernoo">
+<addon id="plugin.program.autowidget" name="AutoWidget" version="19.0.104" provider-name="drinfernoo">
     <requires>
         <import addon="script.module.kodi-six" />
         <import addon="script.module.pil" />
@@ -546,7 +546,7 @@ plugin.video.favourites
 </addon>
 
 <addon id="plugin.program.simple.favourites"
-       version="0.1.25"
+       version="0.1.26"
        name="Simple Favourites"
        provider-name="primaeval">
     <requires>
@@ -707,7 +707,7 @@ plugin.video.favourites
 
 </addon>
 
-<addon id="plugin.video.rumble" name="Rumble" version="1.4.10" provider-name="azzy9">
+<addon id="plugin.video.rumble" name="Rumble" version="1.4.12" provider-name="azzy9">
 	<requires>
 		<import addon="script.module.simplejson"/>
 		<import addon="script.module.requests"/>
@@ -729,10 +729,10 @@ plugin.video.favourites
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
 		</assets>
-		<news>- v1.4.10 - Fix play defaulting to wrong type, Change incorrect string id
-- v1.4.9 - Fix category video REGEX, Fix channel and user search
-- v1.4.8 - Fix channel link to unsubscribe in following, fix channel icons
-- v1.4.7 - Fix following Regex, Remove Pagination from following, Fixed pagination for category videos</news>
+		<news>- v1.4.12 - Fix followed REGEX if channel is live
+- v1.4.11 - Fix following REGEX, Fix Search REGEX
+- v1.4.10 - Fix play defaulting to wrong type, Change incorrect string id
+- v1.4.9 - Fix category video REGEX, Fix channel and user search</news>
 	</extension>
 </addon>
 
