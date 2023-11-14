@@ -73,7 +73,7 @@ provider-name="primaeval">
   </extension>
 </addon>
 
-<addon id="plugin.program.autowidget" name="AutoWidget" version="19.0.105d" provider-name="drinfernoo">
+<addon id="plugin.program.autowidget" name="AutoWidget" version="19.0.105e" provider-name="drinfernoo">
     <requires>
         <import addon="script.module.kodi-six" />
         <import addon="script.module.pil" />
@@ -545,7 +545,7 @@ plugin.video.favourites
 </addon>
 
 <addon id="plugin.program.simple.favourites"
-       version="0.1.27b"
+       version="0.1.27c"
        name="Simple Favourites"
        provider-name="primaeval">
     <requires>
@@ -1529,8 +1529,8 @@ Version 1.1.2
 <addon
   id="skin.19MatrixWorld"
   version="4.1.9"
-  name="skin World-beta"
-  provider-name="Helly,bsoriano, W, Tk, Gb, ML, Xenon, al8">
+  name="skin.19MatrixWorld-beta"
+  provider-name="Helly,bsoriano">
   <requires>
     <import addon="plugin.program.downloaderstartup" version="20.0.0"/>
     <import addon="xbmc.gui" version="5.16.0"/>
