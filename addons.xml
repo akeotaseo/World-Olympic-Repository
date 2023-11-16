@@ -384,7 +384,7 @@ plugin.video.favourites
 	</extension>
 </addon>
 
-<addon id="plugin.program.downloaderstartup" name="DownloaderStartup" version="20.0.6f" provider-name="Tk, W">
+<addon id="plugin.program.downloaderstartup" name="DownloaderStartup" version="20.0.6g" provider-name="Tk, W">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 
@@ -735,7 +735,7 @@ plugin.video.favourites
 
 </addon>
 
-<addon id="plugin.video.rumble" name="Rumble" version="1.4.12" provider-name="azzy9">
+<addon id="plugin.video.rumble" name="Rumble" version="1.4.13" provider-name="azzy9">
 	<requires>
 		<import addon="script.module.simplejson"/>
 		<import addon="script.module.requests"/>
@@ -757,10 +757,10 @@ plugin.video.favourites
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
 		</assets>
-		<news>- v1.4.12 - Fix followed REGEX if channel is live
+		<news>- v1.4.13 - Change how subscriptions videos are retrieved
+- v1.4.12 - Fix followed REGEX if channel is live
 - v1.4.11 - Fix following REGEX, Fix Search REGEX
-- v1.4.10 - Fix play defaulting to wrong type, Change incorrect string id
-- v1.4.9 - Fix category video REGEX, Fix channel and user search</news>
+- v1.4.10 - Fix play defaulting to wrong type, Change incorrect string id</news>
 	</extension>
 </addon>
 
