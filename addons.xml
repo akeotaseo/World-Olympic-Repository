@@ -73,7 +73,7 @@ provider-name="primaeval">
   </extension>
 </addon>
 
-<addon id="plugin.program.autowidget" name="AutoWidget" version="19.0.105f" provider-name="drinfernoo">
+<addon id="plugin.program.autowidget" name="AutoWidget" version="19.0.105g" provider-name="drinfernoo">
     <requires>
         <import addon="script.module.kodi-six" />
         <import addon="script.module.pil" />
@@ -739,7 +739,7 @@ plugin.video.favourites
 </addon>
 
 <addon
-	id="plugin.video.macvod" version="1.96b1" name="[COLOR white]XC MAC M3U[/COLOR]" provider-name="1x|iNKuBo">
+	id="plugin.video.macvod" version="1.96c" name="[COLOR white]XC MAC M3U[/COLOR]" provider-name="1x|iNKuBo">
 <requires>
 		<import addon="script.module.resolveurl"/>
 		<import addon="script.module.requests"/>
@@ -767,7 +767,7 @@ plugin.video.favourites
 
 </addon>
 
-<addon id="plugin.video.rumble" name="Rumble" version="1.4.15" provider-name="azzy9">
+<addon id="plugin.video.rumble" name="Rumble" version="1.4.16" provider-name="azzy9">
 	<requires>
 		<import addon="script.module.simplejson"/>
 		<import addon="script.module.requests"/>
@@ -789,7 +789,8 @@ plugin.video.favourites
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
 		</assets>
-		<news>- v1.4.15 - Set content type, Update category video REGEX
+		<news>- v1.4.16 - Fix category video REGEX
+- v1.4.15 - Set content type, Update category video REGEX
 - v1.4.14 - Fix category Video REGEX
 - v1.4.13 - Change how subscriptions videos are retrieved
 - v1.4.12 - Fix followed REGEX if channel is live</news>
