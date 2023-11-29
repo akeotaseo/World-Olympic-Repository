@@ -577,7 +577,7 @@ plugin.video.favourites
 </addon>
 
 <addon id="plugin.program.simple.favourites"
-       version="0.1.27c"
+       version="0.1.27d"
        name="Simple Favourites"
        provider-name="primaeval">
     <requires>
@@ -739,7 +739,7 @@ plugin.video.favourites
 </addon>
 
 <addon
-	id="plugin.video.macvod" version="1.96d" name="[COLOR white]XC MAC M3U[/COLOR]" provider-name="1x|iNKuBo">
+	id="plugin.video.macvod" version="1.96e" name="[COLOR white]XC MAC M3U[/COLOR]" provider-name="1x|iNKuBo">
 <requires>
 		<import addon="script.module.resolveurl"/>
 		<import addon="script.module.requests"/>
