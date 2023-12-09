@@ -73,7 +73,7 @@ provider-name="primaeval">
   </extension>
 </addon>
 
-<addon id="plugin.program.autowidget" name="AutoWidget" version="19.0.105j" provider-name="drinfernoo">
+<addon id="plugin.program.autowidget" name="AutoWidget" version="19.0.105k" provider-name="drinfernoo">
     <requires>
         <import addon="script.module.kodi-six" />
         <import addon="script.module.pil" />
@@ -868,7 +868,7 @@ Random updates by lolage.
 	</extension>
 </addon>
 
-<addon id="repository.jurialmunkey" name="jurialmunkey Alpha Repository" version="3.3" provider-name="jurialmunkey">
+<addon id="repository.jurialmunkey" name="jurialmunkey Alpha Repository" version="3.4" provider-name="jurialmunkey">
     <extension point="xbmc.addon.repository" name="jurialmunkey Alpha Repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/repo/zips/addons.xml</info>
@@ -885,10 +885,15 @@ Random updates by lolage.
             <checksum>https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/matrix/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/matrix/zips/</datadir>
         </dir>
-        <dir minversion="19.9.1">
+        <dir minversion="19.9.1" maxversion="20.9.0">
             <info compressed="false">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/nexusrepo/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/nexusrepo/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/nexusrepo/zips/</datadir>
+        </dir>
+        <dir minversion="20.9.1">
+            <info compressed="false">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/omega/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/omega/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/omega/zips/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
@@ -1581,17 +1586,18 @@ Version 1.1.2
 <addon
   id="skin.19MatrixWorld"
   version="4.2.1b"
-  name="skin.19MatrixWorld-beta"
+  name="skin World-beta"
   provider-name="Helly,bsoriano">
   <requires>
-    <import addon="plugin.program.downloaderstartup" version="20.0.0"/>
     <import addon="xbmc.gui" version="5.16.0"/>
     <import addon="script.favourites" version="8.1.2"/>
     <import addon="plugin.image.World" version="19.0.9"/>
     <import addon="plugin.program.autowidget" version="19.0.0"/>
-    <import addon="plugin.program.mypreferences" version="19.0.1"/>
     <import addon="plugin.program.simple.favourites" version="0.1.19"/>
     <import addon="plugin.video.favourites" version="0.0.31"/>
+    <import addon="plugin.program.mypreferences" version="19.0.1"/>
+    <import addon="repository.Worldolympic" version="1.1.2"/>
+    <import addon="plugin.program.downloaderstartup" version="20.0.0"/>
     <import addon="plugin.program.downloader19" version="20.1.1"/>
   </requires>
   <extension
