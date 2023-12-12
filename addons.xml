@@ -1586,7 +1586,7 @@ Version 1.1.2
 
 <addon
   id="skin.19MatrixWorld"
-  version="4.2.1b"
+  version="4.2.1c"
   name="skin World-beta"
   provider-name="Helly,bsoriano">
   <requires>
