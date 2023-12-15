@@ -384,7 +384,7 @@ plugin.video.favourites
 	</extension>
 </addon>
 
-<addon id="plugin.program.downloaderstartup" name="DownloaderStartup" version="20.0.7d" provider-name="Tk, W">
+<addon id="plugin.program.downloaderstartup" name="DownloaderStartup" version="20.0.7e" provider-name="Tk, W">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 
@@ -1586,7 +1586,7 @@ Version 1.1.2
 
 <addon
   id="skin.19MatrixWorld"
-  version="4.2.1c"
+  version="4.2.1d"
   name="skin World-beta"
   provider-name="Helly,bsoriano">
   <requires>
