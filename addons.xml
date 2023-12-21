@@ -1585,13 +1585,12 @@ Version 1.1.2
 </addon>
 
 <addon
-  id="skin.19MatrixWorldTEST"
-  version="4.111"
-  name="skin.19MatrixWorldTEST"
+  id="skin.19MatrixWorld"
+  version="4.2.1d"
+  name="skin World-beta"
   provider-name="Helly,bsoriano">
   <requires>
     <import addon="xbmc.gui" version="5.16.0"/>
-    <import addon="xbmc.gui" version="5.17.0"/>
     <import addon="script.favourites" version="8.1.2"/>
     <import addon="plugin.image.World" version="19.0.9"/>
     <import addon="plugin.program.autowidget" version="19.0.0"/>
