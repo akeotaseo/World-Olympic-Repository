@@ -1974,13 +1974,13 @@ Version 1.1.2
 
 <addon
   id="skin.19MatrixWorld"
-  version="4.2.2"
+  version="4.2.2a"
   name="Skin World-beta"
   provider-name="Helly,bsoriano">
   <requires>
     <import addon="script.favourites" version="8.1.2"/>
     <import addon="plugin.image.World" version="19.0.9"/>
-    <import addon="plugin.program.select" version="19.0.0"/>
+    <import addon="plugin.program.myselect" version="19.0.0"/>
     <import addon="plugin.program.simple.favourites" version="0.1.19"/>
     <import addon="plugin.video.favourites" version="0.0.31"/>
     <import addon="plugin.program.mypreferences" version="19.0.1"/>
