@@ -625,7 +625,7 @@ plugin.video.favourites
 
 </addon>
 
-<addon id="plugin.program.myselect" name="MySelect" version="19.0.106a" provider-name="drinfernoo">
+<addon id="plugin.program.myselect" name="MySelect" version="19.0.106b" provider-name="drinfernoo">
     <requires>
         <import addon="script.module.kodi-six" />
         <import addon="script.module.pil" />
