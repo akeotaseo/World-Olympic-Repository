@@ -942,7 +942,7 @@ plugin.video.favourites
 </addon>
 
 <addon id="plugin.program.simple.favourites"
-       version="0.1.28"
+       version="0.1.28a"
        name="Simple Favourites"
        provider-name="primaeval">
     <requires>
