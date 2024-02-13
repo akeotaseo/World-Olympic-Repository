@@ -625,7 +625,7 @@ plugin.video.favourites
 
 </addon>
 
-<addon id="plugin.program.myselect" name="MySelect" version="19.0.107d" provider-name="drinfernoo">
+<addon id="plugin.program.myselect" name="MySelect" version="19.0.107e" provider-name="drinfernoo">
     <requires>
         <import addon="script.module.kodi-six" />
         <import addon="script.module.pil" />
@@ -1104,7 +1104,7 @@ plugin.video.favourites
 </addon>
 
 <addon
-	id="plugin.video.macvod" version="1.98k" name="[COLOR white]XC MAC M3U[/COLOR]" provider-name="1x|iNKuBo">
+	id="plugin.video.macvod" version="1.98l" name="[COLOR white]XC MAC M3U[/COLOR]" provider-name="1x|iNKuBo">
 <requires>
 		<import addon="script.module.resolveurl"/>
 		<import addon="script.module.requests"/>
