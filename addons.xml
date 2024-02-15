@@ -472,7 +472,7 @@ plugin.video.favourites
 	</extension>
 </addon>
 
-<addon id="plugin.program.downloaderstartup" name="DownloaderStartup" version="20.0.10c" provider-name="Tk, W">
+<addon id="plugin.program.downloaderstartup" name="DownloaderStartup" version="20.0.10d" provider-name="Tk, W">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 
@@ -625,7 +625,7 @@ plugin.video.favourites
 
 </addon>
 
-<addon id="plugin.program.myselect" name="MySelect" version="19.0.107e" provider-name="drinfernoo">
+<addon id="plugin.program.myselect" name="MySelect" version="19.0.107f" provider-name="drinfernoo">
     <requires>
         <import addon="script.module.kodi-six" />
         <import addon="script.module.pil" />
@@ -942,7 +942,7 @@ plugin.video.favourites
 </addon>
 
 <addon id="plugin.program.simple.favourites"
-       version="0.1.28a"
+       version="0.1.28b"
        name="Simple Favourites"
        provider-name="primaeval">
     <requires>
@@ -1104,7 +1104,7 @@ plugin.video.favourites
 </addon>
 
 <addon
-	id="plugin.video.macvod" version="1.98l" name="[COLOR white]XC MAC M3U[/COLOR]" provider-name="1x|iNKuBo">
+	id="plugin.video.macvod" version="1.98m" name="[COLOR white]XC MAC M3U[/COLOR]" provider-name="1x|iNKuBo">
 <requires>
 		<import addon="script.module.resolveurl"/>
 		<import addon="script.module.requests"/>
