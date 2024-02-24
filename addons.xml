@@ -472,7 +472,7 @@ plugin.video.favourites
 	</extension>
 </addon>
 
-<addon id="plugin.program.downloaderstartup" name="DownloaderStartup" version="20.0.10h" provider-name="Tk, W">
+<addon id="plugin.program.downloaderstartup" name="DownloaderStartup" version="20.0.10j" provider-name="Tk, W">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 
@@ -551,7 +551,7 @@ plugin.video.favourites
     </extension>
 </addon>
 
-<addon id="plugin.program.mypreferences" name="[B][COLORorange]Προτιμήσεις[/COLOR][/B]" version="20.2a" provider-name="jmooremcc, spoyser">
+<addon id="plugin.program.mypreferences" name="[B][COLORorange]Προτιμήσεις[/COLOR][/B]" version="20.2b" provider-name="jmooremcc, spoyser">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
   </requires>
@@ -596,7 +596,7 @@ plugin.video.favourites
   </extension>
 </addon>
 
-<addon id="plugin.program.myselect" name="MySelect" version="19.0.107l" provider-name="drinfernoo">
+<addon id="plugin.program.myselect" name="MySelect" version="19.0.107m" provider-name="drinfernoo">
     <requires>
         <import addon="script.module.kodi-six" />
         <import addon="script.module.pil" />
