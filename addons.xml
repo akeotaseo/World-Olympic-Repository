@@ -596,7 +596,7 @@ plugin.video.favourites
   </extension>
 </addon>
 
-<addon id="plugin.program.myselect" name="MySelect" version="19.0.107m" provider-name="drinfernoo">
+<addon id="plugin.program.myselect" name="MySelect" version="19.0.107o" provider-name="drinfernoo">
     <requires>
         <import addon="script.module.kodi-six" />
         <import addon="script.module.pil" />
@@ -913,7 +913,7 @@ plugin.video.favourites
 </addon>
 
 <addon id="plugin.program.simple.favourites"
-       version="0.1.28b"
+       version="0.1.28d"
        name="Simple Favourites"
        provider-name="primaeval">
     <requires>
