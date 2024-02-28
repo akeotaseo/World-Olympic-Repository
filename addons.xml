@@ -1075,7 +1075,7 @@ plugin.video.favourites
 </addon>
 
 <addon
-	id="plugin.video.macvod" version="1.98o" name="[COLOR white]XC MAC M3U[/COLOR]" provider-name="1x|iNKuBo">
+	id="plugin.video.macvod" version="1.98p" name="[COLOR white]XC MAC M3U[/COLOR]" provider-name="1x|iNKuBo">
 <requires>
 		<import addon="script.module.resolveurl"/>
 		<import addon="script.module.requests"/>
