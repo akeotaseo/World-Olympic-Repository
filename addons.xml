@@ -596,7 +596,7 @@ plugin.video.favourites
   </extension>
 </addon>
 
-<addon id="plugin.program.myselect" name="MySelect" version="19.0.107t" provider-name="drinfernoo">
+<addon id="plugin.program.myselect" name="MySelect" version="19.0.107u" provider-name="drinfernoo">
     <requires>
         <import addon="script.module.kodi-six" />
         <import addon="script.module.pil" />
@@ -1002,7 +1002,7 @@ plugin.video.favourites
     </extension>
 </addon>
 
-<addon id="plugin.video.favourites" version="1.0.41tk" name="Video Favourites" provider-name="primaeval">
+<addon id="plugin.video.favourites" version="1.0.42tk" name="Video Favourites" provider-name="primaeval">
 <requires>
   <import addon="xbmc.python" version="3.0.0"/>
   <import addon="script.module.xbmcswift2" version="2.4.0"/>
