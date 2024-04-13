@@ -52,7 +52,7 @@ provider-name="primaeval">
 </extension>
 </addon>
 
-<addon id="plugin.image.World" name="[B][COLORorange]World Build Icons[/COLOR][/B]" version="19.0.14k" provider-name="TechNEWSology">
+<addon id="plugin.image.World" name="[B][COLORorange]World Build Icons[/COLOR][/B]" version="19.0.14l" provider-name="TechNEWSology">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
   </requires>
@@ -944,33 +944,31 @@ plugin.video.favourites
     </extension>
 </addon>
 
-<addon id="plugin.video.daddylive" name="DaddyLive" version="4.0.0" provider-name="dEXE, mbebe">
+<addon id="plugin.video.daddylive" name="Daddylive" version="4.03w" provider-name="THE CREW">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
-        <import addon="script.module.requests"/>
-        <import addon="script.module.inputstreamhelper"/>
+        <import addon="script.module.requests" />
+        <import addon="script.module.inputstreamhelper" />
         <import addon="script.module.six"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">DaddyLiveHD - Live TV and Sports</summary>
-        <description lang="en">Live Streamed Channels and Scheduled Sporting Events.</description>
-        <disclaimer lang="en">daddylive.sx</disclaimer>
-        <language>en</language>
+        <description lang="pl">1.2</description>
+        <disclaimer lang="pl">test
+        </disclaimer>
+        <summary lang="en">Live TV and Sports</summary>
+        <description lang="en">Live TV and Sports</description>
+        <disclaimer lang="en">test
+        </disclaimer>
+        <language>pl</language>
         <platform>all</platform>
         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
         <website></website>
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
-            <screenshot>resources/media/screenshot-01.jpg</screenshot>
-            <screenshot>resources/media/screenshot-02.jpg</screenshot>
-            <screenshot>resources/media/screenshot-03.jpg</screenshot>
-            <screenshot>resources/media/screenshot-04.jpg</screenshot>
-            <screenshot>resources/media/screenshot-05.jpg</screenshot>
-            <screenshot>resources/media/screenshot-06.jpg</screenshot>
         </assets>
     </extension>
 </addon>
