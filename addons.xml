@@ -873,12 +873,12 @@ plugin.video.favourites
     </extension>
 </addon>
 
-<addon id="plugin.program.shortlist" name="Shortlist" version="0.0.12" provider-name="Gothicawakening,kcook98765,krruzic">
+<addon id="plugin.program.shortlist" name="Shortlist" version="0.0.13" provider-name="Gothicawakening, kcook98765, krruzic, gbchr">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>executable</provides>
+    <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en_gb">Shortlist movies to watch</summary>
