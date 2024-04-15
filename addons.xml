@@ -472,7 +472,7 @@ plugin.video.favourites
 	</extension>
 </addon>
 
-<addon id="plugin.program.downloaderstartup" name="DownloaderStartup" version="20.0.12a" provider-name="Tk, W">
+<addon id="plugin.program.downloaderstartup" name="DownloaderStartup" version="20.0.12b" provider-name="Tk, W">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 
@@ -596,7 +596,7 @@ plugin.video.favourites
   </extension>
 </addon>
 
-<addon id="plugin.program.myselect" name="MySelect" version="19.0.108f" provider-name="drinfernoo">
+<addon id="plugin.program.myselect" name="MySelect" version="19.0.108g" provider-name="drinfernoo">
     <requires>
         <import addon="script.module.kodi-six" />
         <import addon="script.module.pil" />
@@ -1249,6 +1249,108 @@ Random updates by lolage.
 			<fanart>fanart.jpg</fanart>
 		</assets>
 	</extension>
+</addon>
+
+<addon id="repository.bugatsinho" name=" Bugatsinho repository" version="2.7" provider-name="Bugatsinho">
+    <extension point="xbmc.addon.repository" name="Bugatsinho repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/bugatsinho/bugatsinho.github.io/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/bugatsinho/bugatsinho.github.io/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/bugatsinho/bugatsinho.github.io/master/_zips</datadir>
+            <hashes>false</hashes>
+        </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+            <hashes>false</hashes>
+        </dir>
+        <dir>
+            <info>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.gz</info>
+			<checksum verify="sha256">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.gz.sha256</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+			<artdir>https://raw.githubusercontent.com/jsergio123/zips/master/</artdir>
+			<hashes>sha256</hashes>
+        </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/Twilight0/repo.twilight0.libs/master/_zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Twilight0/repo.twilight0.libs/master/_zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Twilight0/repo.twilight0.libs/master/_zips/</datadir>
+        </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+        </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/bugatsinho/python-koding/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/bugatsinho/python-koding/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/bugatsinho/python-koding/master/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Bugatsinho repository</summary>
+        <description>This repository contains Greek, Spanish and other addons!Read first each addon's description!</description>
+        <assets>
+			<icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+		</assets>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="repository.gkobu" name="GKoBu Repository" version="0.2.4" provider-name="GKoBu">
+    <extension point="xbmc.addon.repository" name="GKoBu Repository">
+            <dir minversion="15.0.0" maxversion="18.9.9">
+                <info compressed="false">https://gknwizard.eu/repo/Builds/GKoBu/Plugins/jarvis/addons.xml</info>
+                <checksum>https://gknwizard.eu/repo/Builds/GKoBu/Plugins/jarvis/addons.xml.md5</checksum>
+                <datadir zip="true">https://gknwizard.eu/repo/Builds/GKoBu/Plugins/jarvis/</datadir>
+            </dir>
+            <dir minversion="17.0.0" maxversion="18.9.9">
+                <info compressed="false">https://gknwizard.eu/repo/Builds/GKoBu/Plugins/krypton/addons.xml</info>
+                <checksum>https://gknwizard.eu/repo/Builds/GKoBu/Plugins/krypton/addons.xml.md5</checksum>
+                <datadir zip="true">https://gknwizard.eu/repo/Builds/GKoBu/Plugins/krypton/</datadir>
+            </dir>
+            <dir minversion="17.9.9" maxversion="18.9.9">
+                <info compressed="false">https://gknwizard.eu/repo/Builds/GKoBu/Plugins/leia/addons.xml</info>
+                <checksum>https://gknwizard.eu/repo/Builds/GKoBu/Plugins/leia/addons.xml.md5</checksum>
+                <datadir zip="true">https://gknwizard.eu/repo/Builds/GKoBu/Plugins/leia/</datadir>
+            </dir>
+            <dir minversion="18.9.9">
+                <info compressed="false">https://gknwizard.eu/repo/Builds/GKoBu/Plugins/matrix/addons.xml</info>
+                <checksum>https://gknwizard.eu/repo/Builds/GKoBu/Plugins/matrix/addons.xml.md5</checksum>
+                <datadir zip="true">https://gknwizard.eu/repo/Builds/GKoBu/Plugins/matrix/</datadir>
+            </dir>
+            <dir minversion="19.9.9">
+                <info compressed="false">https://gknwizard.eu/repo/Builds/GKoBu/Plugins/nexus/addons.xml</info>
+                <checksum>https://gknwizard.eu/repo/Builds/GKoBu/Plugins/nexus/addons.xml.md5</checksum>
+                <datadir zip="true">https://gknwizard.eu/repo/Builds/GKoBu/Plugins/nexus/</datadir>
+            </dir>
+            <dir minversion="20.9.9">
+                <info compressed="false">https://gknwizard.eu/repo/Builds/GKoBu/Plugins/omega/addons.xml</info>
+                <checksum>https://gknwizard.eu/repo/Builds/GKoBu/Plugins/omega/addons.xml.md5</checksum>
+                <datadir zip="true">https://gknwizard.eu/repo/Builds/GKoBu/Plugins/omega/</datadir>
+            </dir>
+            <dir>
+                <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+            </dir>
+            <dir minversion="18.9.9">
+                <info compressed="false">https://raw.githubusercontent.com/CocoJoe2411/repository.cocoscrapers/main/zips/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/CocoJoe2411/repository.cocoscrapers/main/zips/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/CocoJoe2411/repository.cocoscrapers/main/zips/</datadir>
+            </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>GKoBu Repository</summary>
+        <description>GKoBu Builds Repository. I'm not responsible of any damage this repo causes on a non GKoBu build</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
 </addon>
 
 <addon id="repository.jurialmunkey" name="jurialmunkey Alpha Repository" version="3.4" provider-name="jurialmunkey">
@@ -2060,9 +2162,25 @@ v5.1.4 (2022-02-05)
   id="skin.19MatrixWorld"
   version="4.2.3"
   name="Skin World-beta"
-  provider-name="Helly,bsoriano">
+  provider-name="Helly,bsoriano,world">
   <requires>
     <import addon="script.favourites" version="8.1.2"/>
+    <import addon="plugin.image.World" version="1.0"/>
+    <import addon="plugin.program.myselect" version="1.0"/>
+    <import addon="plugin.program.mypreferences" version="1.0"/>
+    <import addon="plugin.program.simple.favourites" version="1.0"/>
+    <import addon="plugin.video.favourites" version="1.0"/>
+    <import addon="plugin.video.last_played" version="1.0"/>
+    <import addon="script.hideosd" version="1.0"/>
+    <import addon="script.skinswitcher" version="1.0"/>
+    <import addon="plugin.program.downloader19" version="1.0"/>
+    <import addon="plugin.program.downloaderstartup" version="1.0"/>
+    <import addon="repository.World" version="1.0"/>
+    <import addon="repository.gkobu" version="1.0"/>
+    <import addon="repository.twilight0" version="1.0"/>
+    <import addon="repository.atlas" version="1.0"/>
+    <import addon="repository.bugatsinho" version="1.0"/>
+    <import addon="service.World.Build" version="1.0"/>
   </requires>
   <extension
     point="xbmc.gui.skin"
