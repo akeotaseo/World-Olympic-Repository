@@ -2164,23 +2164,23 @@ v5.1.4 (2022-02-05)
   name="Skin World-beta"
   provider-name="Helly,bsoriano,world">
   <requires>
-    <import addon="script.favourites" version="8.1.2"/>
-    <import addon="plugin.image.World" version="1.0"/>
-    <import addon="plugin.program.myselect" version="1.0"/>
-    <import addon="plugin.program.mypreferences" version="1.0"/>
-    <import addon="plugin.program.simple.favourites" version="1.0"/>
-    <import addon="plugin.video.favourites" version="1.0"/>
-    <import addon="plugin.video.last_played" version="1.0"/>
-    <import addon="script.hideosd" version="1.0"/>
-    <import addon="script.skinswitcher" version="1.0"/>
-    <import addon="plugin.program.downloader19" version="1.0"/>
-    <import addon="plugin.program.downloaderstartup" version="1.0"/>
-    <import addon="repository.World" version="1.0"/>
-    <import addon="repository.gkobu" version="1.0"/>
-    <import addon="repository.twilight0" version="1.0"/>
-    <import addon="repository.atlas" version="1.0"/>
-    <import addon="repository.bugatsinho" version="1.0"/>
-    <import addon="service.World.Build" version="1.0"/>
+    <import addon="script.favourites" version="0.1"/>
+    <import addon="plugin.image.World" version="0.1"/>
+    <import addon="plugin.program.myselect" version="0.1"/>
+    <import addon="plugin.program.mypreferences" version="0.1"/>
+    <import addon="plugin.program.simple.favourites" version="0.1"/>
+    <import addon="plugin.video.favourites" version="0.1"/>
+    <import addon="plugin.video.last_played" version="0.1"/>
+    <import addon="script.hideosd" version="0.1"/>
+    <import addon="script.skinswitcher" version="0.1"/>
+    <import addon="plugin.program.downloader19" version="0.1"/>
+    <import addon="plugin.program.downloaderstartup" version="0.1"/>
+    <import addon="repository.World" version="0.1"/>
+    <import addon="repository.gkobu" version="0.1"/>
+    <import addon="repository.twilight0" version="0.1"/>
+    <import addon="repository.atlas" version="0.1"/>
+    <import addon="repository.bugatsinho" version="0.1"/>
+    <import addon="service.World.Build" version="0.1"/>
   </requires>
   <extension
     point="xbmc.gui.skin"
