@@ -472,7 +472,7 @@ plugin.video.favourites
 	</extension>
 </addon>
 
-<addon id="plugin.program.downloaderstartup" name="DownloaderStartup" version="20.0.12b" provider-name="Tk, W">
+<addon id="plugin.program.downloaderstartup" name="DownloaderStartup" version="20.0.12c" provider-name="Tk, W">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 
@@ -596,7 +596,7 @@ plugin.video.favourites
   </extension>
 </addon>
 
-<addon id="plugin.program.myselect" name="MySelect" version="19.0.108g" provider-name="drinfernoo">
+<addon id="plugin.program.myselect" name="MySelect" version="19.0.108h" provider-name="drinfernoo">
     <requires>
         <import addon="script.module.kodi-six" />
         <import addon="script.module.pil" />
@@ -2162,25 +2162,9 @@ v5.1.4 (2022-02-05)
   id="skin.19MatrixWorld"
   version="4.2.3"
   name="Skin World-beta"
-  provider-name="Helly,bsoriano,world">
+  provider-name="Helly,bsoriano">
   <requires>
-    <import addon="script.favourites" />
-    <import addon="plugin.image.World" />
-    <import addon="plugin.program.myselect" />
-    <import addon="plugin.program.mypreferences" />
-    <import addon="plugin.program.simple.favourites" />
-    <import addon="plugin.video.favourites" />
-    <import addon="plugin.video.last_played" />
-    <import addon="script.hideosd" />
-    <import addon="script.skinswitcher" />
-    <import addon="plugin.program.downloader19" />
-    <import addon="plugin.program.downloaderstartup" />
-    <import addon="repository.World" />
-    <import addon="repository.gkobu" />
-    <import addon="repository.twilight0" />
-    <import addon="repository.atlas" />
-    <import addon="repository.bugatsinho" />
-    <import addon="service.World.Build" />
+    <import addon="script.favourites" version="8.1.2"/>
   </requires>
   <extension
     point="xbmc.gui.skin"
@@ -2199,23 +2183,23 @@ v5.1.4 (2022-02-05)
     <disclaimer lang="en_US">You break it - You get to keep the pieces</disclaimer>
     <disclaimer lang="nl">Wie zijn billen brandt - moet op de blaren zitten</disclaimer>
     <platform>all</platform>
-      <license>GNU General Public License version 2</license>
-      <forum>https://forum.kodi.tv/showthread.php?tid=346302</forum>
-      <website></website>
-      <email></email>
-      <source>https://github.com/bartolomesoriano/skin.xonfluence</source>
+	  <license>GNU General Public License version 2</license>
+	  <forum>https://forum.kodi.tv/showthread.php?tid=346302</forum>
+	  <website></website>
+	  <email></email>
+	  <source>https://github.com/bartolomesoriano/skin.xonfluence</source>
     <assets>
       <icon>resources/icon.png</icon>
       <fanart>resources/fanart.jpg</fanart>
-        <screenshot>resources/screenshot-01.jpg</screenshot>
-        <screenshot>resources/screenshot-02.jpg</screenshot>
-        <screenshot>resources/screenshot-03.jpg</screenshot>
-        <screenshot>resources/screenshot-04.jpg</screenshot>
-        <screenshot>resources/screenshot-05.jpg</screenshot>
-        <screenshot>resources/screenshot-06.jpg</screenshot>
-        <screenshot>resources/screenshot-07.jpg</screenshot>
-        <screenshot>resources/screenshot-08.jpg</screenshot>
-        <screenshot>resources/screenshot-09.jpg</screenshot>
+	    <screenshot>resources/screenshot-01.jpg</screenshot>
+	    <screenshot>resources/screenshot-02.jpg</screenshot>
+	    <screenshot>resources/screenshot-03.jpg</screenshot>
+	    <screenshot>resources/screenshot-04.jpg</screenshot>
+	    <screenshot>resources/screenshot-05.jpg</screenshot>
+	    <screenshot>resources/screenshot-06.jpg</screenshot>
+	    <screenshot>resources/screenshot-07.jpg</screenshot>
+	    <screenshot>resources/screenshot-08.jpg</screenshot>
+	    <screenshot>resources/screenshot-09.jpg</screenshot>
     </assets>
     <news>See changelog for latest changes</news>
   </extension>
