@@ -472,7 +472,7 @@ plugin.video.favourites
 	</extension>
 </addon>
 
-<addon id="plugin.program.downloaderstartup" name="DownloaderStartup" version="20.0.13b" provider-name="Tk, W">
+<addon id="plugin.program.downloaderstartup" name="DownloaderStartup" version="20.0.13c" provider-name="Tk, W">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 
@@ -2023,7 +2023,7 @@ Version 1.30.0
   </extension>
 </addon>
 
-<addon id="service.autoexec" name="Autoexec Service" version="1.0.0" provider-name="your username">
+<addon id="service.autoexec" name="Autoexec Service" version="1.0.1" provider-name="your username">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
@@ -2034,6 +2034,10 @@ Version 1.30.0
 		<description lang="en_GB">The Autoexec Service will automatically be run on Kodi startup.</description>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.png</fanart>
+		</assets>
 	</extension>
 </addon>
 
