@@ -1042,7 +1042,7 @@ plugin.video.favourites
     </extension>
 </addon>
 
-<addon id="plugin.video.last_played" name="Last Played" version="6.1.0c" provider-name="Luis Rodrigues">
+<addon id="plugin.video.last_played" name="Last Played" version="6.4.0a" provider-name="Luis Rodrigues">
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
     </extension>
