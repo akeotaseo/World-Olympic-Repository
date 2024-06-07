@@ -472,7 +472,7 @@ plugin.video.favourites
 	</extension>
 </addon>
 
-<addon id="plugin.program.downloaderstartup" name="DownloaderStartup" version="20.0.14b" provider-name="Tk, W">
+<addon id="plugin.program.downloaderstartup" name="DownloaderStartup" version="20.0.15" provider-name="Tk, W">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 
@@ -1073,7 +1073,7 @@ plugin.video.favourites
 </addon>
 
 <addon
-	id="plugin.video.macvod" version="1.99t" name="[COLOR white]XC MAC M3U[/COLOR]" provider-name="1x|iNKuBo|233  -- Tk-W">
+	id="plugin.video.macvod" version="1.99t1" name="[COLOR white]XC MAC M3U[/COLOR]" provider-name="1x|iNKuBo|233  -- Tk-W">
 <requires>
 		<import addon="script.module.resolveurl"/>
 		<import addon="script.module.requests"/>
