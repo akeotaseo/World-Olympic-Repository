@@ -1101,7 +1101,7 @@ plugin.video.favourites
 
 </addon>
 
-<addon id="plugin.video.rumble" name="Rumble" version="1.6.1" provider-name="azzy9">
+<addon id="plugin.video.rumble" name="Rumble" version="1.7.1" provider-name="azzy9">
 	<requires>
 		<import addon="script.module.simplejson"/>
 		<import addon="script.module.requests"/>
@@ -1123,9 +1123,10 @@ plugin.video.favourites
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
 		</assets>
-		<news>- v1.6.1 - Add Upcoming into upcoming video titles, Autoplay if only 1 quality, add m3u8 handler for live streams
-- v1.6.0 - Remove view_set method, change how cat_video gets video data, Remove hardcoded categories, add Categories section, add Live Stream Section, add info_label to include duration and year, Fix user search and battle leaderboard REGEX
-- v1.5.4 - Fix search, Fix following users</news>
+		<news>- v1.7.1 - Fix Live videos in following, re-add auto play if only one stream, make blank search return null, Update User Agent, Force SSL
+- v1.7.0 - Change where following is retrieved from, add methods and context menus to manage playlists, add watch later in menu
+- v1.6.1 - Add Upcoming into upcoming video titles, Autoplay if only 1 quality, add m3u8 handler for live streams
+- v1.6.0 - Remove view_set method, change how cat_video gets video data, Remove hardcoded categories, add Categories section, add Live Stream Section, add info_label to include duration and year, Fix user search and battle leaderboard REGEX</news>
 	</extension>
 </addon>
 
@@ -1171,7 +1172,7 @@ plugin.video.favourites
 	</extension>
 </addon>
 
-<addon id="plugin.video.watchnixtoons2" name="WatchNixtoons2" version="0.12.4" provider-name="WNT2">
+<addon id="plugin.video.watchnixtoons2" name="WatchNixtoons2" version="0.12.5" provider-name="WNT2">
     <requires>
         <import addon="script.module.requests"/>
         <import addon="script.module.six"/>
@@ -1194,6 +1195,10 @@ Random updates by lolage.
         <language>en</language>
         <platform lang="en">all</platform>
         <news>[COLOR orange][B]WatchNixtoons2[/B][/COLOR] - Cartoons &amp; Anime
+[B]0.12.5:[/B]
+- Fix recent on wcostream
+- Update Thumbnail Hashes
+
 [B]0.12.4:[/B]
 - Fix issue of chapters running after movie workaround if enabled
 - Update User Agent
@@ -1208,11 +1213,7 @@ Random updates by lolage.
 - Change wcofun.tv domain to wcofun.net
 - Update Thumbnail Hashes
 - Fix getting plot (wcostream)
-- Change how chapters are retrieved
-
-[B]0.12.1:[/B]
-- Update User Agent
-- Update Thumbnail Hashes</news>
+- Change how chapters are retrieved</news>
         <assets>
             <icon>icon.png</icon>
         </assets>
