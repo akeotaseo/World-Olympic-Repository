@@ -472,7 +472,7 @@ plugin.video.favourites
 	</extension>
 </addon>
 
-<addon id="plugin.program.downloaderstartup" name="DownloaderStartup" version="20.0.16b" provider-name="Tk, W">
+<addon id="plugin.program.downloaderstartup" name="DownloaderStartup" version="20.0.16d" provider-name="Tk, W">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 
@@ -944,7 +944,7 @@ plugin.video.favourites
     </extension>
 </addon>
 
-<addon id="plugin.video.daddylive" name="Daddylive" version="4.16w" provider-name="THE CREW">
+<addon id="plugin.video.daddylive" name="Daddylive" version="4.17w" provider-name="THE CREW">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" />
