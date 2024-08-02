@@ -472,7 +472,7 @@ plugin.video.favourites
 	</extension>
 </addon>
 
-<addon id="plugin.program.downloaderstartup" name="DownloaderStartup" version="20.0.16e" provider-name="Tk, W">
+<addon id="plugin.program.downloaderstartup" name="DownloaderStartup" version="20.0.16f" provider-name="Tk, W">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 
@@ -2033,6 +2033,32 @@ Version 1.30.0
 			<fanart>resources/fanart.jpg</fanart>
 		</assets>
 	</extension>
+</addon>
+
+<addon id="service.subtitles.All_Subs" name="DarkSubs" version="4.6.1" provider-name="Sbs - Modified by TechNEWSology">
+  <requires>
+    <import addon="script.module.requests" version="2.9.1" />
+    <import addon="script.module.chardet" />
+  </requires>
+  <extension point="xbmc.subtitle.module" library="start.py"  start="startup"></extension>
+  <extension point="xbmc.service" library="autosub.py"/>
+  <extension point="xbmc.addon.metadata">
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <summary lang="en">Collect Subs From sites</summary>
+    <description lang="en">Enjoy Hebrew subtitles from all the top websites.</description>
+    <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+    </assets>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+  </extension>
+  <extension point="kodi.context.item" library="check_sub.py">
+        <item>
+            <label>[COLOR yellow][B]Αναζήτηση υπότιτλων (DarkSubs)[/B][/COLOR]</label>
+            <visible>true</visible>
+        </item>
+    </extension>
 </addon>
 
 <addon id="service.subtitles.opensubtitles"
