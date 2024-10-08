@@ -472,7 +472,7 @@ plugin.video.favourites
 	</extension>
 </addon>
 
-<addon id="plugin.program.downloaderstartup" name="DownloaderStartup" version="20.0.17" provider-name="Tk, W">
+<addon id="plugin.program.downloaderstartup" name="DownloaderStartup" version="20.0.18" provider-name="Tk, W">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 
@@ -596,7 +596,7 @@ plugin.video.favourites
   </extension>
 </addon>
 
-<addon id="plugin.program.myselect" name="MySelect" version="19.0.111" provider-name="drinfernoo">
+<addon id="plugin.program.myselect" name="MySelect" version="19.0.111a" provider-name="drinfernoo">
     <requires>
         <import addon="script.module.kodi-six" />
         <import addon="script.module.pil" />
@@ -2254,12 +2254,6 @@ v1.0.1 (2023-07-28)
   provider-name="Helly,bsoriano">
   <requires>
     <import addon="script.favourites" version="8.1.2"/>
-    <import addon="plugin.image.World" version="19.0.15"/>
-    <import addon="plugin.program.myselect" version="19.0.110"/>
-    <import addon="plugin.video.favourites" version="1.0.43tk"/>
-    <import addon="plugin.program.downloaderstartup" version="20.0.16"/>
-   <import addon="plugin.program.downloader19" optional="true" />
-    <import addon="repository.WorldOmega" version="0.1.3"/>
   </requires>
   <extension
     point="xbmc.gui.skin"
