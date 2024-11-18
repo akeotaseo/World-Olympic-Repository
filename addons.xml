@@ -472,7 +472,7 @@ plugin.video.favourites
 	</extension>
 </addon>
 
-<addon id="plugin.program.downloaderstartup" name="DownloaderStartup" version="20.0.19e" provider-name="Tk, W">
+<addon id="plugin.program.downloaderstartup" name="DownloaderStartup" version="20.0.19f" provider-name="Tk, W">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 
@@ -596,7 +596,7 @@ plugin.video.favourites
   </extension>
 </addon>
 
-<addon id="plugin.program.myselect" name="MySelect" version="19.0.112d" provider-name="drinfernoo">
+<addon id="plugin.program.myselect" name="MySelect" version="19.0.112e" provider-name="drinfernoo">
     <requires>
         <import addon="script.module.kodi-six" />
         <import addon="script.module.pil" />
@@ -1143,39 +1143,7 @@ plugin.video.favourites
 	</extension>
 </addon>
 
-<addon id="plugin.video.stalkervod" name="Stalker VOD Client" version="1.0.0w1" provider-name="rickey">
-	<requires>
-		<import addon="xbmc.python" version="3.0.1"/>
-		<import addon="script.module.requests" version="2.27.1"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="addon_entry.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.service" library="service_entry.py"/>
-	<extension point="xbmc.addon.metadata">
-		<reuselanguageinvoker>true</reuselanguageinvoker>
-		<platform>all</platform>
-		<summary lang="en_GB">Stalker VOD Client</summary>
-		<description lang="en_GB">Kodi Stalker client for accessing on demand videos and channels from Stalker middleware</description>
-		<license>GPL-3.0-or-later</license>
-		<language>en</language>
-		<source>https://github.com/rickeylohia/plugin.video.stalkervod</source>
-		<website>https://github.com/rickeylohia/plugin.video.stalkervod</website>
-		<assets>
-			<icon>resources/media/icon.png</icon>
-			<screenshot>resources/media/screenshot_1.png</screenshot>
-			<screenshot>resources/media/screenshot_2.png</screenshot>
-			<screenshot>resources/media/screenshot_3.png</screenshot>
-			<screenshot>resources/media/screenshot_4.png</screenshot>
-		</assets>
-		<news>
-v1.0.0  (2024-07-07)
-- Major version release with refactor of the menu options. If using kodi Add to Favourites option, existing Favourites link would break.
-		</news>
-	</extension>
-</addon>
-
-<addon id="plugin.video.watchnixtoons2" name="WatchNixtoons2" version="0.12.7" provider-name="WNT2">
+<addon id="plugin.video.watchnixtoons2" name="WatchNixtoons2" version="0.13.0~beta" provider-name="WNT2">
     <requires>
         <import addon="script.module.requests"/>
         <import addon="script.module.six"/>
@@ -1198,6 +1166,11 @@ Random updates by lolage.
         <language>en</language>
         <platform lang="en">all</platform>
         <news>[COLOR orange][B]WatchNixtoons2[/B][/COLOR] - Cartoons &amp; Anime
+[B]0.13.0:[/B]
+- Add functionality for m3u8 videos
+- Update User Agent
+- Update Thumbnail Hashes
+
 [B]0.12.7:[/B]
 - Update User Agent
 - Update Thumbnail Hashes
@@ -2035,6 +2008,46 @@ Version 1.30.0
 			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>
 		</assets>
+	</extension>
+</addon>
+
+<addon id="service.subloader" name="SubLoader" version="0.1.7" provider-name="DenimNani">
+	<requires></requires>
+	<extension point="xbmc.service" library="monitor.py" start="login"></extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Automatic subtitles for your content</summary>
+		<description lang="en">Auto download the best subtitle automatically as soon you start the video.[CR]Special thanks to OpenSubtitles.org for providing a unique UA for Subloader.</description>
+		<platform>all</platform>
+		<language>en</language>
+		<license>GPL</license>
+		<website>https://github.com/denimnani</website>
+		<source>https://github.com/denimnani/service.subloader</source>
+		<forum></forum>
+		<email></email>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.png</fanart>
+			<screenshot>resources/media/screenshots/screenshot1subloader.jpg</screenshot>
+			<screenshot>fanart.png</screenshot>
+		</assets>
+<news>
+0.1.7     23.11.2022
+G-Mod - removed
+peno64 fix/extend exclude pvr
+helviojr made a patch so the function videosource() returns the stream url if it is a .strm file. That way it can detect the addon used to open the file/url and can use the addons exclusions.
+
+0.1.6     05.05.2021
+Bug fix on open subtitle dialog.
+
+0.1.5     21.02.2021
+Subloader now runs on KODI v19 (Special thanks to peno/64).
+Added python 3 compatibility.
+Some grammatical corrections (Special thanks to AlexNaga).
+
+0.1.4     23.07.2019
+Added Dutch language (Special thanks to Tinuz97).
+Clean up project files.
+</news>
 	</extension>
 </addon>
 
