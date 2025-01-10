@@ -1116,7 +1116,7 @@ In addition to what livestreams allowed you to do, you can now,
 </addon>
 
 <addon
-	id="plugin.video.macvod" version="1.99t13b" name="[COLOR white]XC MAC M3U[/COLOR]" provider-name="1x|iNKuBo|233  -- Tk-W">
+	id="plugin.video.macvod" version="1.99t13c" name="[COLOR white]XC MAC M3U[/COLOR]" provider-name="1x|iNKuBo|233  -- Tk-W">
 <requires>
 		<import addon="script.module.resolveurl"/>
 		<import addon="script.module.requests"/>
