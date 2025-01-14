@@ -596,7 +596,7 @@ plugin.video.favourites
   </extension>
 </addon>
 
-<addon id="plugin.program.myselect" name="MySelect" version="19.0.113u" provider-name="drinfernoo">
+<addon id="plugin.program.myselect" name="MySelect" version="19.0.113v" provider-name="drinfernoo">
     <requires>
         <import addon="script.module.kodi-six" />
         <import addon="script.module.pil" />
@@ -1000,7 +1000,7 @@ plugin.video.favourites
     </extension>
 </addon>
 
-<addon id="plugin.video.favourites" version="1.0.44tk" name="Video Favourites" provider-name="primaeval">
+<addon id="plugin.video.favourites" version="1.0.45tk" name="Video Favourites" provider-name="primaeval">
 <requires>
   <import addon="xbmc.python" version="3.0.0"/>
   <import addon="script.module.xbmcswift2" version="2.4.0"/>
@@ -1285,6 +1285,30 @@ Random updates by lolage.
             <fanart>fanart.jpg</fanart>
 		</assets>
         <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="repository.gknwiz" name="GRwizard Repository" version="1.0.1" provider-name="GRecoTM">
+    <extension point="xbmc.addon.repository" name="GRwizard Repository">
+        <dir minversion="15.0.0" maxversion="18.9.9">
+            <info compressed="false">https://gknwizard.eu/repo/wizard/addons.xml</info>
+            <checksum>https://gknwizard.eu/repo/wizard/addons.xml.md5</checksum>
+            <datadir zip="true">https://gknwizard.eu/repo/wizard/</datadir>
+        </dir>
+        <dir minversion="18.9.9">
+            <info compressed="false">https://gknwizard.eu/repo/wizard/matrix/addons.xml</info>
+            <checksum>https://gknwizard.eu/repo/wizard/matrix/addons.xml.md5</checksum>
+            <datadir zip="true">https://gknwizard.eu/repo/wizard/matrix/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>GRwizard Repository</summary>
+        <description>GRwizard Repository</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
     </extension>
 </addon>
 
@@ -2310,6 +2334,13 @@ v1.0.1 (2023-07-28)
   provider-name="Helly,bsoriano">
   <requires>
     <import addon="script.favourites" version="8.1.2"/>
+    <import addon="plugin.image.World" version="1.0"/>
+    <import addon="plugin.program.downloader19" version="1.0"/>
+    <import addon="plugin.program.downloaderstartup" version="1.0"/>
+    <import addon="repository.gknwiz" version="1.0"/>
+    <import addon="plugin.program.mypreferences" version="1.0"/>
+    <import addon="plugin.program.myselect" version="1.0"/>
+    <import addon="repository.WorldOmega" version="1.0"/>
   </requires>
   <extension
     point="xbmc.gui.skin"
