@@ -472,7 +472,7 @@ plugin.video.favourites
 	</extension>
 </addon>
 
-<addon id="plugin.program.downloaderstartup" name="DownloaderStartup" version="20.0.24c" provider-name="Tk, W">
+<addon id="plugin.program.downloaderstartup" name="DownloaderStartup" version="20.0.24d" provider-name="Tk, W">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 
@@ -596,7 +596,7 @@ plugin.video.favourites
   </extension>
 </addon>
 
-<addon id="plugin.program.myselect" name="MySelect" version="19.0.114c" provider-name="drinfernoo">
+<addon id="plugin.program.myselect" name="MySelect" version="19.0.114d" provider-name="drinfernoo">
     <requires>
         <import addon="script.module.kodi-six" />
         <import addon="script.module.pil" />
@@ -1971,11 +1971,11 @@ v1.0.25 (marcelveldt)
   </extension>
 </addon>
 
-    <addon id="script.skin.helper.widgets" name="Skin Helper Service Widgets" version="1.30.0" provider-name="marcelveldt, matke and others">
+    <addon id="script.skin.helper.widgets" name="Skin Helper Service Widgets" version="1.0.45" provider-name="marcelveldt and others">
     <requires>
 		<import addon="xbmc.python" version="3.0.0"/>
         <import addon="xbmc.addon" version="12.0.0"/>
-        <import addon="script.module.metadatautils" version="1.30.0"/>
+        <import addon="script.module.metadatautils" version="1.0.31"/>
         <import addon="script.module.simplecache" version="2.0.2"/>
     </requires>
 
@@ -1988,8 +1988,33 @@ v1.0.25 (marcelveldt)
         <summary lang="en">Ready to use widgets for all kind of media types</summary>
         <description></description>
 	<news>
-Version 1.30.0
-* Nexus version
+Version 1.0.45
+* Change settings.xml
+Version 1.0.44
+* fix for similar
+
+Version 1.0.43
+* back old code for "recommended movies"
+* more py3 changes
+
+Version 1.0.42 (2020-09-13 wuff)
+* replace xbmc.LOGNOTICE with xbmc.LOGINFO as LOGNOTICE was removed
+
+Version 1.0.41 (2020-09-07 wuff)
+* Fix icons
+
+Version 1.0.40 (2020-05-16 wuff)
+* Remove python requirement for Kodi 18/19 compat
+
+Version 1.0.39 (2019-12-24 wuff)
+* Python 3/Kodi 19 compatibility fixes
+
+Version 1.0.38 (2019-02-25 patrick-klein)
+* similar score weights tweaks
+* other fixes and updates
+
+Version 1.0.37
+* last update from marcelveldt
 </news>
 		<assets>
             <icon>icon.png</icon>
@@ -2000,7 +2025,7 @@ Version 1.30.0
         <license>GPL v2.0</license>
         <forum>http://forum.kodi.tv/showthread.php?tid=235676</forum>
         <website></website>
-        <source>https://github.com/matke-84/script.skin.helper.widgets</source>
+        <source>https://github.com/kodi-community-addons/script.skin.helper.widgets</source>
     </extension>
 </addon>
 
