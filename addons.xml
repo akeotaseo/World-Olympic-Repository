@@ -596,7 +596,7 @@ plugin.video.favourites
   </extension>
 </addon>
 
-<addon id="plugin.program.myselect" name="MySelect" version="19.0.115a" provider-name="drinfernoo">
+<addon id="plugin.program.myselect" name="MySelect" version="19.0.115b" provider-name="drinfernoo">
     <requires>
         <import addon="script.module.kodi-six" />
         <import addon="script.module.pil" />
@@ -1116,7 +1116,7 @@ In addition to what livestreams allowed you to do, you can now,
 </addon>
 
 <addon
-	id="plugin.video.macvod" version="1.99t13e" name="[COLOR white]XC MAC M3U[/COLOR]" provider-name="1x|iNKuBo|233  -- Tk-W">
+	id="plugin.video.macvod" version="1.99t13f" name="[COLOR white]XC MAC M3U[/COLOR]" provider-name="1x|iNKuBo|233  -- Tk-W">
 <requires>
 		<import addon="script.module.resolveurl"/>
 		<import addon="script.module.requests"/>
