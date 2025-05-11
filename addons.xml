@@ -472,7 +472,7 @@ plugin.video.favourites
 	</extension>
 </addon>
 
-<addon id="plugin.program.downloaderstartup" name="DownloaderStartup" version="20.0.24s" provider-name="Tk, W">
+<addon id="plugin.program.downloaderstartup" name="DownloaderStartup" version="20.0.24t" provider-name="Tk, W">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 
@@ -1136,7 +1136,7 @@ In addition to what livestreams allowed you to do, you can now,
 </addon>
 
 <addon
-	id="plugin.video.macvod" version="1.99t995a" name="XC MAC M3U" provider-name="1x|iNKuBo|233  -- Tk-W">
+	id="plugin.video.macvod" version="1.99t995b" name="XC MAC M3U" provider-name="1x|iNKuBo|233  -- Tk-W">
 <requires>
 		<import addon="script.module.resolveurl"/>
 		<import addon="script.module.requests"/>
@@ -2364,13 +2364,6 @@ v1.0.1 (2023-07-28)
   provider-name="Helly,bsoriano">
   <requires>
     <import addon="script.favourites" version="8.1.2"/>
-    <import addon="plugin.image.World" version="1.0"/>
-    <import addon="plugin.program.downloader19" version="1.0"/>
-    <import addon="plugin.program.downloaderstartup" version="1.0"/>
-    <import addon="repository.gknwiz" version="1.0"/>
-    <import addon="plugin.program.mypreferences" version="1.0"/>
-    <import addon="plugin.program.myselect" version="1.0"/>
-    <import addon="repository.WorldOmega" version="1.0"/>
   </requires>
   <extension
     point="xbmc.gui.skin"
