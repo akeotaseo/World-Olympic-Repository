@@ -1042,6 +1042,26 @@ plugin.video.favourites
     </extension>
 </addon>
 
+<addon id="plugin.video.iptvxc" name="XCUI Streams" version="3.2.8t1" provider-name="[B][COLOR orange]Fire TV[/B][/COLOR]">
+	<requires>
+		<import addon="script.module.requests" version="2.27.1"/>
+	</requires>
+  <extension point="xbmc.python.pluginsource"
+			library="default.py">
+		<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+	<summary lang="en">[COLOR blue]An IPTV addon written to work with XC and XCUI for Kodi 19+[/COLOR] </summary>
+	<language>en</language>
+	<description lang="en">[COLOR blue]This addon does not supply nor provide any illegal content[/COLOR]</description>
+	<platform>all</platform>
+	<assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+	</assets>
+  </extension>
+</addon>
+
 <addon id="plugin.video.last_played" name="Last Played" version="6.4.0a" provider-name="Luis Rodrigues">
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
@@ -1116,7 +1136,7 @@ In addition to what livestreams allowed you to do, you can now,
 </addon>
 
 <addon
-	id="plugin.video.macvod" version="1.99t995a" name="[COLOR white]XC MAC M3U[/COLOR]" provider-name="1x|iNKuBo|233  -- Tk-W">
+	id="plugin.video.macvod" version="1.99t995a" name="XC MAC M3U" provider-name="1x|iNKuBo|233  -- Tk-W">
 <requires>
 		<import addon="script.module.resolveurl"/>
 		<import addon="script.module.requests"/>
