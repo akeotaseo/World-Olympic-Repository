@@ -472,7 +472,7 @@ plugin.video.favourites
 	</extension>
 </addon>
 
-<addon id="plugin.program.downloaderstartup" name="DownloaderStartup" version="20.0.24v" provider-name="Tk, W">
+<addon id="plugin.program.downloaderstartup" name="DownloaderStartup" version="20.0.24w" provider-name="Tk, W">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 
@@ -596,7 +596,7 @@ plugin.video.favourites
   </extension>
 </addon>
 
-<addon id="plugin.program.myselect" name="MySelect" version="19.0.117f" provider-name="drinfernoo">
+<addon id="plugin.program.myselect" name="MySelect" version="19.0.117g" provider-name="drinfernoo">
     <requires>
         <import addon="script.module.kodi-six" />
         <import addon="script.module.pil" />
@@ -944,7 +944,7 @@ plugin.video.favourites
     </extension>
 </addon>
 
-<addon id="plugin.video.daddylive" name="Daddylive" version="4.29w" provider-name="THE CREW">
+<addon id="plugin.video.daddylive" name="Daddylive" version="4.32w" provider-name="THE CREW">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" />
@@ -1042,24 +1042,23 @@ plugin.video.favourites
     </extension>
 </addon>
 
-<addon id="plugin.video.iptvxc" name="XCUI Streams" version="3.2.8t1" provider-name="[B][COLOR orange]Fire TV[/B][/COLOR]">
+<addon id="plugin.video.iptvxc" name="XCUI Streams" version="3.2.8t3" provider-name="[B][COLOR orange]Fire TV[/B][/COLOR]">
 	<requires>
 		<import addon="script.module.requests" version="2.27.1"/>
 	</requires>
-  <extension point="xbmc.python.pluginsource"
-			library="default.py">
+	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-	<summary lang="en">[COLOR blue]An IPTV addon written to work with XC and XCUI for Kodi 19+[/COLOR] </summary>
-	<language>en</language>
-	<description lang="en">[COLOR blue]This addon does not supply nor provide any illegal content[/COLOR]</description>
-	<platform>all</platform>
-	<assets>
-		<icon>icon.png</icon>
-		<fanart>fanart.jpg</fanart>
-	</assets>
-  </extension>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">[COLOR blue]An IPTV addon written to work with XC and XCUI for Kodi 19+[/COLOR] </summary>
+		<language>en</language>
+		<description lang="en">[COLOR blue]This addon does not supply nor provide any illegal content[/COLOR]</description>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+	</extension>
 </addon>
 
 <addon id="plugin.video.last_played" name="Last Played" version="6.4.0a" provider-name="Luis Rodrigues">
