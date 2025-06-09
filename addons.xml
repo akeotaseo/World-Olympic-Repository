@@ -944,7 +944,7 @@ plugin.video.favourites
     </extension>
 </addon>
 
-<addon id="plugin.video.daddylive" name="Daddylive" version="4.33w" provider-name="THE CREW">
+<addon id="plugin.video.daddylive" name="Daddylive" version="4.34v" provider-name="THE CREW">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" />
@@ -1201,7 +1201,7 @@ In addition to what livestreams allowed you to do, you can now,
 	</extension>
 </addon>
 
-<addon id="plugin.video.watchnixtoons2" name="WatchNixtoons2" version="0.14.2" provider-name="WNT2">
+<addon id="plugin.video.watchnixtoons2" name="WatchNixtoons2" version="0.14.3" provider-name="WNT2">
     <requires>
         <import addon="script.module.requests"/>
         <import addon="script.module.six"/>
@@ -1213,7 +1213,7 @@ In addition to what livestreams allowed you to do, you can now,
     <extension point="xbmc.addon.metadata">
         <summary lang="en">WatchNixtoons2</summary>
         <description lang="en">
-Watch cartoons and anime from [COLOR orange][B]www.wcofun.net[/B][/COLOR].
+Watch cartoons and anime from [COLOR orange][B]www.wcostream.tv[/B][/COLOR].
 
 Support the WatchCartoonOnline website with a PayPal donation to:
 [COLOR khaki][B]wcohelp@yandex.com[/B][/COLOR]
@@ -1225,6 +1225,11 @@ Random updates by lolage.
         <language>en</language>
         <platform lang="en">all</platform>
         <news>[COLOR orange][B]WatchNixtoons2[/B][/COLOR] - Cartoons &amp; Anime
+
+[B]0.14.3:[/B]
+- wcoflix - fix m3u8 streams
+- Update Thumbnail Hashes
+- Update User Agent
 
 [B]0.14.2:[/B]
 - wcostream - add new movie workaround
