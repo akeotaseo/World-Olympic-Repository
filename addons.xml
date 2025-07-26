@@ -52,7 +52,7 @@ provider-name="primaeval">
 </extension>
 </addon>
 
-<addon id="plugin.image.World" name="[B][COLORorange]World Build Icons[/COLOR][/B]" version="19.0.18a" provider-name="TechNEWSology">
+<addon id="plugin.image.World" name="[B][COLORorange]World Build Icons[/COLOR][/B]" version="19.0.18b" provider-name="TechNEWSology">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
   </requires>
@@ -596,7 +596,7 @@ plugin.video.favourites
   </extension>
 </addon>
 
-<addon id="plugin.program.myselect" name="MySelect" version="19.0.118g" provider-name="drinfernoo">
+<addon id="plugin.program.myselect" name="MySelect" version="19.0.118h" provider-name="drinfernoo">
     <requires>
         <import addon="script.module.kodi-six" />
         <import addon="script.module.pil" />
