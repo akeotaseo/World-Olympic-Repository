@@ -596,7 +596,7 @@ plugin.video.favourites
   </extension>
 </addon>
 
-<addon id="plugin.program.myselect" name="MySelect" version="19.0.118n" provider-name="drinfernoo">
+<addon id="plugin.program.myselect" name="MySelect" version="19.0.118p" provider-name="drinfernoo">
     <requires>
         <import addon="script.module.kodi-six" />
         <import addon="script.module.pil" />
@@ -1091,7 +1091,7 @@ plugin.video.favourites
     </extension>
 </addon>
 
-<addon id="plugin.video.live.streamspro" name="LiveStreamsPro" version="3.0.0~alpha4.9" provider-name="gujal">
+<addon id="plugin.video.live.streamspro" name="LiveStreamsPro" version="3.0.0~alpha4.10" provider-name="gujal">
     <requires>
         <import addon="script.module.six" />
         <import addon="script.module.kodi-six" />
