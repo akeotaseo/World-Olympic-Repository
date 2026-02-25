@@ -596,7 +596,7 @@ plugin.video.favourites
   </extension>
 </addon>
 
-<addon id="plugin.program.myselect" name="MySelect" version="19.0.122l" provider-name="drinfernoo">
+<addon id="plugin.program.myselect" name="MySelect" version="19.0.122m" provider-name="drinfernoo">
     <requires>
         <import addon="script.module.kodi-six" />
         <import addon="script.module.pil" />
@@ -1258,35 +1258,40 @@ plugin.video.favourites
 	</extension>
 </addon>
 
-    <addon id="repository.twilight0" name="Twilight0 Addon Repository" version="1.7" provider-name="Twilight0">
-        <extension point="xbmc.addon.repository" name="Twilight0 Addon Repository">
-            <dir>
-                <info compressed="false">https://raw.githubusercontent.com/Twilight0/repository.twilight0/master/_zips/addons.xml</info>
-                <checksum>https://raw.githubusercontent.com/Twilight0/repository.twilight0/master/_zips/addons.xml.md5</checksum>
-                <datadir zip="true">https://raw.githubusercontent.com/Twilight0/repository.twilight0/master/_zips/</datadir>
-                <hashes>false</hashes>
-            </dir>
-            <dir>
-                <info compressed="false">https://raw.githubusercontent.com/Twilight0/repository.twilight0.libs/master/_zips/addons.xml</info>
-                <checksum>https://raw.githubusercontent.com/Twilight0/repository.twilight0.libs/master/_zips/addons.xml.md5</checksum>
-                <datadir zip="true">https://raw.githubusercontent.com/Twilight0/repository.twilight0.libs/master/_zips/</datadir>
-                <hashes>false</hashes>
-            </dir>
-			<dir>
-				<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
-            </dir>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>Repository for various of my add-ons</summary>
-            <description>Repository for various of my add-ons</description>
-            <platform>all</platform>
-            <assets>
-                <icon>icon.png</icon>
-                <fanart>fanart.jpg</fanart>
-            </assets>
-        </extension>
+    <addon id="repository.twilight0" name="Twilight0 Repository" version="2.0.0" provider-name="Twilight0">
+    <requires>
+        <import addon="xbmc.addon" version="20.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository" name="Twilight0 Repository">
+        <dir>
+			<info compressed="true">https://raw.githubusercontent.com/Twilight0/repository.twilight0/master/repo_dir/addons.xml.gz</info>
+			<checksum>https://raw.githubusercontent.com/Twilight0/repository.twilight0/master/repo_dir/addons.xml.gz.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/Twilight0/repository.twilight0/master/repo_dir/</datadir>
+        </dir>
+        <dir>
+			<info compressed="true">https://raw.githubusercontent.com/Twilight0/repository.twilight0.libs/master/repo_dir/addons.xml.gz</info>
+			<checksum>https://raw.githubusercontent.com/Twilight0/repository.twilight0.libs/master/repo_dir/addons.xml.gz.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/Twilight0/repository.twilight0.libs/master/repo_dir/</datadir>
+        </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Twilight0 Repository</summary>
+        <description>Twilight0 Repository</description>
+        <platform>all</platform>
+        <news>2.0
+- Update repository format for Kodi v20+ (Nexus/Omega) compatibility
+- Add minimum version requirement (Kodi v20)
+        </news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
 </addon>
 
 <addon id="repository.World" name="World Repository" version="0.1.3" provider-name="World">
