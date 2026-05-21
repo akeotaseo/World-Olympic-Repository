@@ -2163,7 +2163,7 @@ v1.0.1 (2023-07-28)
 	</extension>
 </addon>
 
-<addon id="service.world.build" name="[B][COLOR orange]World Build Service[/COLOR][/B]" version="21.0.27" provider-name="TechNEWSology">
+<addon id="service.world.build" name="[B][COLOR orange]World Build Service[/COLOR][/B]" version="21.0.2" provider-name="TechNEWSology">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="vfs.sftp" />
@@ -2171,7 +2171,6 @@ v1.0.1 (2023-07-28)
     <import addon="vfs.libarchive" />
     <import addon="inputstream.rtmp" />
     <import addon="inputstream.adaptive" />
-    <import addon="inputstream.ffmpegdirect" />
   </requires>
   <extension point="xbmc.python.script" library="main.py">
     <provides>executable</provides>
