@@ -118,8 +118,6 @@
         <top>8</top>
         <width>2250</width>
         <height>90</height>
-        <onleft condition="!Skin.HasSetting(FixedEndingMenu)">9000</onleft>
-        <onright condition="!Skin.HasSetting(FixedEndingMenu)">9000</onright>
         <onup condition="!Skin.HasSetting(DisableGlobalSearch) + !Skin.HasSetting(FloorGlobalSearch)">610</onup>
         <onup condition="Skin.HasSetting(DisableGlobalSearch) | Skin.HasSetting(FloorGlobalSearch)">603</onup>
         <ondown>9001</ondown>
@@ -127,6 +125,7 @@
         <focusposition>2</focusposition>
         <movement>1</movement>
         <orientation>Horizontal</orientation>
+
         <itemlayout height="90" width="450">
             <control type="image">
                 <left>0</left>
@@ -250,11 +249,10 @@
             <top>8</top>
             <width>350</width>
             <height>135</height>
-            <onleft condition="!Skin.HasSetting(FixedEndingMenu)">9000</onleft>
-            <onright condition="!Skin.HasSetting(FixedEndingMenu)">9000</onright>
             <onup condition="!Skin.HasSetting(DisableGlobalSearch) + !Skin.HasSetting(FloorGlobalSearch)">610</onup>
             <onup condition="Skin.HasSetting(DisableGlobalSearch) | Skin.HasSetting(FloorGlobalSearch)">603</onup>
             <ondown>9001</ondown>
+
             <scrolltime>200</scrolltime>
             <focusposition>2</focusposition>
             <movement>1</movement>
