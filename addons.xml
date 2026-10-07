@@ -438,7 +438,7 @@ provider-name="primaeval">
     </extension>
 </addon>
 
-<addon id="plugin.program.downloader19" name="[B][COLOR orange]World Updater - Tools[/COLOR][/B]" version="21.1.2k" provider-name="TechNEWSology /Gb-W-AI">
+<addon id="plugin.program.downloader19" name="[B][COLOR orange]World Updater - Tools[/COLOR][/B]" version="21.1.2m" provider-name="TechNEWSology /Gb-W-AI">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 
