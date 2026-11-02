@@ -1898,9 +1898,9 @@ Version 1.0.37
 </addon>
 
 <addon id="script.skinswitcher"
-	     name="Skin Switcher"
-	     version="1.0.2"
-	     provider-name="Surfacingx, OpenELEQ, Fire TV Guru, GKoBu">
+         name="Skin Switcher"
+         version="1.0.3"
+         provider-name="Surfacingx, OpenELEQ, Fire TV Guru, GKoBu">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
   </requires>
@@ -1910,9 +1910,8 @@ Version 1.0.37
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-	</assets>
+            <icon>icon.png</icon>
+    </assets>
     <summary lang="en">-</summary>
     <description lang="en">Choose a skin.</description>
     <disclaimer lang="en">.</disclaimer>
@@ -2196,6 +2195,7 @@ v1.0.1 (2023-07-28)
     <import addon="vfs.libarchive" />
     <import addon="inputstream.rtmp" />
     <import addon="inputstream.adaptive" />
+    <import addon="inputstream.ffmpegdirect" />
   </requires>
   <extension point="xbmc.python.script" library="main.py">
     <provides>executable</provides>
