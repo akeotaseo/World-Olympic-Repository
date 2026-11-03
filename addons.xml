@@ -438,7 +438,7 @@ provider-name="primaeval">
     </extension>
 </addon>
 
-<addon id="plugin.program.downloader19" name="[B][COLOR orange]World Updater - Tools[/COLOR][/B]" version="21.1.4a" provider-name="TechNEWSology /Gb-W-AI">
+<addon id="plugin.program.downloader19" name="[B][COLOR orange]World Updater - Tools[/COLOR][/B]" version="21.1.5" provider-name="TechNEWSology /Gb-W-AI">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 
@@ -2214,9 +2214,9 @@ v1.0.1 (2023-07-28)
 
 <addon
   id="skin.19MatrixWorld"
-  version="4.2.3"
+  version="4.2.4"
   name="Skin World-beta"
-  provider-name="Helly,bsoriano,Diggz,Tk,Gb,World">
+  provider-name="Helly,bsoriano,Diggz,Tk,Gb,ML,World,AI">
   <requires>
     <import addon="script.favourites" version="8.1.2"/>
   </requires>
