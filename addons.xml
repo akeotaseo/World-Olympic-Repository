@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
+<addon id="context.subtitles.autosniper" name="Subtitles Auto Sniper" version="1.3.0" provider-name="World-AI">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.requests" version="2.22.0"/>
+    </requires>
+
+    <!-- 🚀 CONTEXT ITEM ΠΟΥ ΚΑΘΕΤΑΙ ΨΗΛΑ ΣΤΟ ΜΕΝΟΥ -->
+    <extension point="kodi.context.item">
+        <menu id="kodi.core.main">
+            <item library="addon.py">
+                <label>[COLOR lime]Subtitles Auto Sniper[/COLOR]</label>
+                <visible>String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,episode)</visible>
+            </item>
+        </menu>
+    </extension>
+
+    <!-- 🎯 ΔΗΛΩΣΗ ΩΣ PLUGINSOURCE ΓΙΑ ΣΤΑΘΕΡΗ ΕΚΤΕΛΕΣΗ ΨΗΛΑ -->
+	<extension point="xbmc.python.script" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="el">Subtitle Dialog Manager &amp; Downloader</summary>
+        <description lang="el">Αναζήτηση, αυτόματη μετονομασία βάσει έκδοσης και καθολική διαγραφή υποτίτλων.</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <icon>fanart.jpg</icon>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="context.subtitlesdialog.contextmenu" name="Subtitles Dialog - Contextmenu" version="1.1.1" provider-name="burekas">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
@@ -438,7 +471,7 @@ provider-name="primaeval">
     </extension>
 </addon>
 
-<addon id="plugin.program.downloader19" name="[B][COLOR orange]World Updater - Tools[/COLOR][/B]" version="21.1.5d" provider-name="TechNEWSology /Gb-W-AI">
+<addon id="plugin.program.downloader19" name="[B][COLOR orange]World Updater - Tools[/COLOR][/B]" version="21.1.5e" provider-name="TechNEWSology /Gb-W-AI">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 
@@ -1135,7 +1168,7 @@ plugin.video.favourites
     </extension>
 </addon>
 
-<addon id="repository.gkobu" name="GKoBu Repository" version="0.2.5" provider-name="GKoBu">
+<addon id="repository.gkobu" name="GKoBu Repository" version="0.2.6" provider-name="GKoBu">
     <extension point="xbmc.addon.repository" name="GKoBu Repository">
             <dir minversion="17.9.9" maxversion="18.9.9">
                 <info compressed="false">https://gknwizard.eu/repo/Builds/GKoBu/Plugins/leia/addons.xml</info>
@@ -1156,6 +1189,11 @@ plugin.video.favourites
                 <info compressed="false">https://gknwizard.eu/repo/Builds/GKoBu/Plugins/omega/addons.xml</info>
                 <checksum>https://gknwizard.eu/repo/Builds/GKoBu/Plugins/omega/addons.xml.md5</checksum>
                 <datadir zip="true">https://gknwizard.eu/repo/Builds/GKoBu/Plugins/omega/</datadir>
+            </dir>
+            <dir minversion="21.9.9">
+                <info compressed="false">https://gknwizard.eu/repo/Builds/GKoBu/Plugins/piers/addons.xml</info>
+                <checksum>https://gknwizard.eu/repo/Builds/GKoBu/Plugins/piers/addons.xml.md5</checksum>
+                <datadir zip="true">https://gknwizard.eu/repo/Builds/GKoBu/Plugins/piers/</datadir>
             </dir>
             <dir>
                 <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
