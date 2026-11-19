@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="context.subtitles.autosniper" name="[B][COLOR deepskyblue]Subtitles Auto Sniper[/COLOR][/B]" version="1.4.5" provider-name="World-AI">
+<addon id="context.subtitles.autosniper" name="[B][COLOR deepskyblue]Subtitles Auto Sniper[/COLOR][/B]" version="1.4.6" provider-name="World-AI">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" version="2.22.0"/>
@@ -471,7 +471,7 @@ provider-name="primaeval">
     </extension>
 </addon>
 
-<addon id="plugin.program.downloader19" name="[B][COLOR orange]World Updater - Tools[/COLOR][/B]" version="22.0.2a" provider-name="TechNEWSology /Gb-W-AI">
+<addon id="plugin.program.downloader19" name="[B][COLOR orange]World Updater - Tools[/COLOR][/B]" version="22.2.2a" provider-name="TechNEWSology /Gb-W-AI">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
