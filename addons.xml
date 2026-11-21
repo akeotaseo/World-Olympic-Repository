@@ -1953,6 +1953,38 @@ Version 1.0.37
   </extension>
 </addon>
 
+<addon id="script.world.sysmonitor"
+       name="World System &amp; Network Monitor"
+       version="1.0.0"
+       provider-name="World, AI">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="kodi.context.item">
+    <menu id="kodi.core.main">
+      <item library="default.py">
+        <label>$ADDON[script.world.sysmonitor 32001]</label>
+        <visible>true</visible>
+      </item>
+    </menu>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Complete System, Network, Speedtest &amp; Video Monitor in a single dashboard.</summary>
+    <summary lang="el">Πλήρης έλεγχος Συστήματος, Δικτύου, Ταχύτητας &amp; Βίντεο σε ένα παράθυρο.</summary>
+    <description lang="en">Displays real-time Network status (LAN/DNS), WAN IP, Country &amp; VPN with flag, ISP with logo, Ping &amp; Speedtest (Download/Upload), Video &amp; Cache info, CPU, Temperature, RAM, Storage, Kodi Version, OS and Uptime.</description>
+    <description lang="el">Εμφανίζει σε πραγματικό χρόνο: Κατάσταση Δικτύου (LAN/DNS), WAN IP, Χώρα &amp; VPN με σημαία, Πάροχο (ISP) με λογότυπο, Ping &amp; Ταχύτητα (Download/Upload), Στοιχεία Βίντεο &amp; Cache, CPU, Θερμοκρασία, RAM, Αποθήκευση, Έκδοση Kodi, OS και Uptime.</description>
+    <platform>all</platform>
+    <license>GPL-2.0-or-later</license>
+    <assets>
+      <icon>resources/icons/icon.png</icon>
+      <fanart>resources/icons/fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+
 <addon id="service.autoexec" name="Autoexec Service" version="1.0.1" provider-name="your username">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
