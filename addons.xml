@@ -1955,7 +1955,7 @@ Version 1.0.37
 
 <addon id="script.world.sysmonitor"
        name="World System &amp; Network Monitor"
-       version="1.0.0"
+       version="1.0.1"
        provider-name="World, AI">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
