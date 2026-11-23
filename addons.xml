@@ -471,7 +471,7 @@ provider-name="primaeval">
     </extension>
 </addon>
 
-<addon id="plugin.program.downloader19" name="[B][COLOR orange]World Updater - Tools[/COLOR][/B]" version="22.2.3" provider-name="TechNEWSology /Gb-W-AI">
+<addon id="plugin.program.downloader19" name="[B][COLOR orange]World Updater - Tools[/COLOR][/B]" version="22.2.4" provider-name="TechNEWSology /Gb-W-AI">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
@@ -623,15 +623,14 @@ plugin.video.favourites
   </extension>
 </addon>
 
-<addon id="plugin.program.myselect" name="MySelect" version="19.0.123" provider-name="drinfernoo">
+<addon id="plugin.program.myselect" name="MySelect" version="20.0.0" provider-name="drinfernoo">
     <requires>
-        <import addon="script.module.kodi-six" />
         <import addon="script.module.pil" />
         <import addon="script.module.six" />
     </requires>
 
     <extension point="xbmc.python.pluginsource" library="main.py">
-        <provides>executable video</provides>
+        <provides>executable video music</provides>
     </extension>
 
     <extension point="xbmc.service" library="service.py" />
@@ -639,27 +638,122 @@ plugin.video.favourites
     <extension point="kodi.context.item">
         <menu id="kodi.core.main">
             <item library="context_add.py">
-                <label>$ADDON[plugin.program.myselect 32003]</label>
-                <visible>String.IsEqual(Window(10000).Property(contextt.autowidget),true)</visible>
+                <label>$ADDON[plugin.program.myselect 30003]</label>
+                <visible>String.IsEqual(Window(10000).Property(context.myselect),true)</visible>
             </item>
             <item library="context_refresh.py">
-                <label>$ADDON[plugin.program.myselect 32006]</label>
+                <label>$ADDON[plugin.program.myselect 30006]</label>
                 <visible>String.Contains(ListItem.FolderPath, plugin://plugin.program.myselect)</visible>
+            </item>
+            <item library="context_refresh_single.py">
+                <label>$ADDON[plugin.program.myselect 30046]</label>
+                <visible>!String.IsEmpty(ListItem.Property(autoID)) + [!String.IsEqual(ListItem.Property(autoAction),static) + !String.IsEqual(ListItem.Property(autoAction),merged)]</visible>
+            </item>
+            <item library="clear_cache_single.py">
+                <label>$ADDON[plugin.program.myselect 30116]</label>
+                <visible>!String.IsEmpty(ListItem.Property(autoCache))</visible>
             </item>
         </menu>
     </extension>
 
     <extension point="xbmc.addon.metadata">
         <reuselanguageinvoker>true</reuselanguageinvoker>
-        <summary lang="en_GB">Automatically changes out widgets</summary>
-        <description lang="en_GB">Automatically changes out widgets on the homescreen for a more interesting browsing experience.</description>
-    <summary lang="es_ES">Cambia los widgets automáticamente</summary>
-    <description lang="es_ES">Cambia los widgets en la pantalla de inicio automáticamente para una experiencia de navegación más interesante.</description>
-    <platform>all</platform>
+        <summary lang="en_GB">Custom MySelect clone of AutoWidget</summary>
+        <description lang="en_GB">Modified clone of AutoWidget for managing dynamic widgets and shortcuts, with internal addon storage and Python (.py) script execution support.</description>
+        <summary lang="el_GR">Προσαρμοσμένος κλώνος MySelect του AutoWidget</summary>
+        <description lang="el_GR">Τροποποιημένος κλώνος του AutoWidget για δυναμικά widgets και συντομεύσεις, με εσωτερική αποθήκευση δεδομένων μέσα στο πρόσθετο και υποστήριξη εκτέλεσης αρχείων Python (.py).</description>
+        <summary lang="es_ES">Clon personalizado MySelect de AutoWidget</summary>
+        <description lang="es_ES">Clon modificado de AutoWidget con almacenamiento interno y soporte para scripts Python (.py).</description>
+        <platform>all</platform>
         <license>LGPL-3.0</license>
-        <website>https://www.github.com/drinfernoo/</website>
-        <source>https://www.github.com/drinfernoo/plugin.program.myselect/</source>
+        <website>https://github.com</website>
+        <source>https://github.complugin.program.myselect/</source>
         <news>
+3.7.1 (MySelect Custom Edition)
+ - Custom clone of AutoWidget (plugin.program.myselect)
+ - Store groups, widgets, and backups internally inside the add-on directory (folders/)
+ - Add support for browsing, adding, and executing Python (.py) scripts via RunScript
+ 3.7.0
+ - Optimize caching for performance and reliability
+ - Fix direct shortcuts
+ - Fix Settings Shortcuts for dependency add-ons
+3.6.1
+ - Fix playing direct shortcuts for some items
+ - Fix cache clearing again
+3.6.0
+ - Convert all file and path handling to xbmcvfs
+ - Add more feedback and granular controls during backup/restore
+3.5.1
+ - Fix sorting bug with higher group counts
+3.5.0
+ - Allow bulk operations in some groups
+ - More informative dialogs
+ - Allow manually sorting groups in "My Groups"
+ - Fixes for direct shortcuts
+ - Update "version" attribute in metafiles when updating
+3.4.2
+ - Some fixes for constant notification
+3.4.1
+ - Fix clearing cache from settings
+3.4.0
+ - Rework caching mechanism
+ - Add more notifications of progress
+ - Add placeholder items when no content is loaded
+3.3.7
+ - Delay widget updates during library scans or when in media views
+ - Fix widget cleaning scan for skins which don't use Skin Shortcuts
+ - Fix refreshing widgets created before 3.3.0
+ - Add more content type choices in editor dialog
+3.3.6
+ - Fix "Next Page" for Python 2.7
+3.3.5
+ - Better handling of error and empty states
+ - Better handling of "Next Page" items
+ - Fix "Active Widgets" menu
+ - Delay library updates when inside media views
+3.3.4
+ - Fix "Next Page" localizations
+3.3.3
+ - Fix "Clear Cache"
+3.3.2
+ - Fix bug when paths return no items
+3.3.1
+ - Fix bug when Skin Shortcuts is not installed
+ - More improvements to page item handling
+3.3.0
+ - Add "Copy Group" in group context menu
+ - Add "Create New ... Group" in "My Groups" menu
+ - Add "Clear Cache" in "Tools" menu
+ - Add "Refresh Widget" to widget context menu
+ - Add "Clear Cache" to widget context menu
+ - Add rudimentary error item for failed widgets
+ - Add "Icon Packs" for library widgets from genres, studios, and countries
+ - Remove dependency on Kodi Six
+ - Allow editing content type
+ - Allow Cycling Widgets to pull from a subset of paths
+ - Support cast thumbnails for Kodi N
+ - Fix translatePath reference again
+ - Faster and more robust item creation
+ - Make `.widget` files much simpler
+ - Better support for library paths
+ - Better support for music
+3.2.3
+ - Add English (US) and Portugese localizations
+3.2.2
+ - Add more localizations
+ - Better "Next Page" detection
+ - Support for "Next Page" items in other languages
+3.2.1
+ - Fix for items with no artwork
+3.2.0
+ - Add setting to prefer episodes/shows when removing duplicates
+ - Rework duplicate removal
+ - Fix bug in Active Widgets editor dialog
+ - Fix landscape art for some items
+ - Fix paged widgets not resetting on boot
+ - Format with black
+3.1.9
+ - Fix error with translatePath
 3.1.8
  - Fix resume progress on items
 3.1.7
@@ -679,7 +773,7 @@ plugin.video.favourites
  - Fix "Clear Cache"
 3.1.1
  - Fixes for cache mechanism
- - Add "Force Refresh Widgets" to context menu for AutoWidget items
+ - Add "Force Refresh Widgets" to context menu for MySelect items
 3.1.0
  - Improved background caching for paths that change frequently
  - Fix unneeded refreshes
@@ -871,7 +965,7 @@ plugin.video.favourites
  - Remove Skin Shortcuts dependency
  - Expand context menu options
  - Add support for skins with "basic" Skin Shortcuts integration
- - Add setting to pause AutoWidget's service
+ - Add setting to pause MySelect's service
 1.0.7
  - Fix context menu option not showing
 1.0.6
